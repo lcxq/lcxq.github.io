@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://lcxq.github.io/2019/08/14/leetcode-no-3-wu-chong-fu-zi-fu-de-zui-chang-zi-chuan/</loc>
+    <loc>http://lcxq.github.io/2019/08/12/hellomyblog/</loc>
     
-    <lastmod>2019-08-13T16:56:03.025Z</lastmod>
+    <lastmod>2019-08-13T17:06:31.624Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://lcxq.github.io/2019/08/12/hellomyblog/</loc>
+    <loc>http://lcxq.github.io/2019/08/14/leetcode-no-3-wu-chong-fu-zi-fu-de-zui-chang-zi-chuan/</loc>
     
-    <lastmod>2019-08-12T23:57:10.000Z</lastmod>
+    <lastmod>2019-08-13T16:56:03.025Z</lastmod>
     
   </url>
   
@@ -37,6 +37,13 @@
   </url>
   
   <url>
+    <loc>http://lcxq.github.io/categories/index.html</loc>
+    
+    <lastmod>2019-08-12T23:57:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://lcxq.github.io/archives/index.html</loc>
     
     <lastmod>2019-08-12T23:57:10.000Z</lastmod>
@@ -45,13 +52,6 @@
   
   <url>
     <loc>http://lcxq.github.io/tags/index.html</loc>
-    
-    <lastmod>2019-08-12T23:57:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://lcxq.github.io/categories/index.html</loc>
     
     <lastmod>2019-08-12T23:57:10.000Z</lastmod>
     
