@@ -1,0 +1,18 @@
+[
+	{
+		"name": "流行的云",
+		"artist": "岸部真明",
+		"url": "/medias/music/liuxindeyun.mp3",
+		"cover": "/medias/music/流行的云.png"
+	},{
+		"name": "卡农",
+		"artist": "押尾光太郎",
+		"url": "/medias/music/canon.flac",
+		"cover": "/medias/music/卡农.png"
+	},{
+		"name": "吉原哀歌",
+		"artist": "武士桑",
+		"url": "/medias/music/jiyuanaige.flac",
+		"cover": "/medias/music/吉原哀歌.png"
+	}
+]
