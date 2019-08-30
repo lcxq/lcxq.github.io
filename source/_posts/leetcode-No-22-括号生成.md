@@ -39,25 +39,23 @@ categories: leetcode
 class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> res = new ArrayList<>();
-        generateAll(new char[2 * n], 0, res);
+        generateAll("", res, n);
         return res;
     }
-    private void generateAll(char[] charArray, int index, List<String> res) {
-        if (index == charArray.length) {
-            if (valid(charArray)) {
-                res.add(new String(charArray));
+    private void generateAll(String cur, List<String> res, int n) {
+        if (cur.length() == 2 * n) {
+            if (valid(cur)) {
+                res.add(cur);
             }
         } else {
-            charArray[index] = '(';
-            generateAll(charArray, index + 1, res);
-            charArray[index] = ')';
-            generateAll(charArray, index + 1, res);
+            generateAll(cur + '(', res, n);
+            generateAll(cur + ')', res, n);
         }
     }
-    private boolean valid(char[] charArray) {
+    private boolean valid(String cur) {
         int balance = 0;
-        for (char c : charArray) {
-            if (c == '{') {
+        for (char c : cur.toCharArray()) {
+            if (c == '(') {
                 balance ++;
             }else balance--;
             if (balance < 0) {
@@ -71,4 +69,43 @@ class Solution {
 
 ## 方法二
 
-容易发现，生成括号的数量直接决定了
+容易发现，生成括号的数量直接决定了序列是否有效，因此可以通过控制左右括号生成的数量来生成合法序列。
+
+```java
+class Solution {
+    public List<String> generateParenthesis(int n) {
+        List<String> res = new ArrayList<>();
+        generateAll("", 0, 0, res,n);
+        return res;
+    }
+    private void generateAll(String cur, int left, int right, List<String> res, int n) {
+        if (cur.length() == 2 * n) {
+            res.add(cur);
+        } else {
+            if (left < n) generateAll( cur + '(', left + 1, right, res, n);
+            if (right < left) generateAll(cur + ')', left, right + 1, res, n);
+        }
+    }
+}
+```
+
+## 方法三
+
+每个合法序列实际上都可以分割为左子序列和右子序列，迭代分割位点即可得到所有序列
+
+```java
+class Solution {
+    public List<String> generateParenthesis(int n) {
+        List<String> ans = new ArrayList();
+        if (n == 0) {
+            ans.add("");
+        } else {
+            for (int a = 0; a < n; a++)
+                for (String left: generateParenthesis(a))
+                    for (String right: generateParenthesis(n-1-a))
+                        ans.add("(" + left + ")" + right);
+        }
+        return ans;
+    }
+}
+```
