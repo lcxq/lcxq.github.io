@@ -96,7 +96,6 @@ class Solution {
 递归法，思路在于：找中位数就是找第k小的数，其中k=(m+n)/2，每次遍历就排除掉k/2个数即可
 
 ```java
-
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int n = nums1.length;
@@ -124,6 +123,7 @@ class Solution {
         }
 }
 ```
+
 **时间复杂度：** $$O(log(m+n)$$
 
 ## 总结

@@ -42,8 +42,17 @@ class Solution {
         if (lists.length == 0) {
             return null;
         }
-        ListNode head = RecursionMerge(lists, 0, lists.length - 1);
-        return head;
+        return RecursionMerge(lists, 0, lists.length - 1);
+    }
+    private ListNode RecursionMerge(ListNode[] lists, int left, int right) {
+        if (left == right) {
+            return lists[left];
+        } else {
+            int mid = (left + right) / 2;
+            ListNode head_left = RecursionMerge(lists, left, mid);
+            ListNode head_right = RecursionMerge(lists, mid + 1, right);
+            return mergeTwoLists(head_left, head_right);
+        }
     }
     private ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode head = new ListNode(0), p = head;
@@ -63,18 +72,6 @@ class Solution {
             p.next = l2;
         }
         return head.next;
-    }
-    private ListNode RecursionMerge(ListNode[] lists, int left, int right) {
-        if (left == right) {
-            return lists[left];
-        } else if (right == left + 1){
-            return mergeTwoLists(lists[left], lists[right]);
-        } else {
-            int mid = (left + right) / 2;
-            ListNode l1 = RecursionMerge(lists, left, mid);
-            ListNode l2 = RecursionMerge(lists, mid + 1, right);
-            return mergeTwoLists(l1, l2);
-        }
     }
 }
 ```

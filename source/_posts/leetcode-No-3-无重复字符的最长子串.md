@@ -20,21 +20,23 @@ categories: leetcode
 
 **示例 1:**
 
-```
+```markdown
 输入: "abcabcbb"
-输出: 3 
+输出: 3
 解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
 ```
 
 **示例 2:**
-```
+
+```markdown
 输入: "abcabcbb"
 输出: 3 
 解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
 ```
 
 **示例 3:**
-```
+
+```markdown
 输入: "pwwkew"
 输出: 3
 解释: 因为无重复字符的最长子串是 "wke"，所以其长度为 3。
@@ -42,6 +44,7 @@ categories: leetcode
 ```
 
 ## 方法
+
 滑动窗口法，维护 *i* 和 *j* 变量，分别指向窗口的头与尾。同时使用一个哈希表实现字符串中字符与下标的映射。
 
 用变量 *j* (窗口尾端)遍历整个字符串，若表中已经存在该字符，说明当前的窗口可能已经出现了重复字符。此时将 *i* 前滑至该重复字符的后一位(直接从表中读取下标加**1**)，或是表中存在字符但窗口中不存在该字符，则 *i* 不变。用一行代码即可实现
@@ -54,7 +57,7 @@ categories: leetcode
 
 最后返回遍历过程中最大的窗口长度即可。
 
-```python
+```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         int max_length = 0;
@@ -70,4 +73,5 @@ class Solution {
     }
 }
 ```
+
 **时间复杂度：** $$O(n)$$
