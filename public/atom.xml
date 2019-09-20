@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>硫茶小七</title>
+  
+  <subtitle>硫茶小七的学习日记</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://lcxq.github.io/"/>
+  <updated>2019-09-20T11:03:51.269Z</updated>
+  <id>http://lcxq.github.io/</id>
+  
+  <author>
+    <name>硫茶小七</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>leetcode No.50 Pow(x,n)</title>
+    <link href="http://lcxq.github.io/2019/09/20/leetcode-no-50-pow-x-n/"/>
+    <id>http://lcxq.github.io/2019/09/20/leetcode-no-50-pow-x-n/</id>
+    <published>2019-09-20T09:42:37.000Z</published>
+    <updated>2019-09-20T11:03:51.269Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Pow-x-n&quot;&gt;&lt;a href=&quot;#Pow-x-n&quot; class=&quot;headerlink&quot; title=&quot;Pow(x,n)&quot;&gt;&lt;/a&gt;Pow(x,n)&lt;/h1&gt;&lt;p&gt;实现 &lt;em&gt;pow(x, n)&lt;/em&gt; ，即计算 x 的 n
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.49 字母异位词分组</title>
+    <link href="http://lcxq.github.io/2019/09/20/leetcode-no-49-zi-mu-yi-wei-ci-fen-zu/"/>
+    <id>http://lcxq.github.io/2019/09/20/leetcode-no-49-zi-mu-yi-wei-ci-fen-zu/</id>
+    <published>2019-09-20T06:50:36.000Z</published>
+    <updated>2019-09-20T08:15:13.784Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;字母异位词分组&quot;&gt;&lt;a href=&quot;#字母异位词分组&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.48 旋转图像</title>
+    <link href="http://lcxq.github.io/2019/09/20/leetcode-no-48-xuan-zhuan-tu-xiang/"/>
+    <id>http://lcxq.github.io/2019/09/20/leetcode-no-48-xuan-zhuan-tu-xiang/</id>
+    <published>2019-09-20T05:10:07.000Z</published>
+    <updated>2019-09-20T05:25:56.668Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;旋转图像&quot;&gt;&lt;a href=&quot;#旋转图像&quot; class=&quot;headerlink&quot; title=&quot;旋转图像&quot;&gt;&lt;/a&gt;旋转图像&lt;/h1&gt;&lt;p&gt;给定一个 n × n 的二维矩阵表示一个图像。&lt;/p&gt;
+&lt;p&gt;将图像顺时针旋转 90
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.47 全排列Ⅱ</title>
+    <link href="http://lcxq.github.io/2019/09/20/leetcode-no-47-quan-pai-lie-ii/"/>
+    <id>http://lcxq.github.io/2019/09/20/leetcode-no-47-quan-pai-lie-ii/</id>
+    <published>2019-09-20T04:14:55.000Z</published>
+    <updated>2019-09-20T05:06:43.897Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;全排列Ⅱ&quot;&gt;&lt;a href=&quot;#全排列Ⅱ&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.46 全排列</title>
+    <link href="http://lcxq.github.io/2019/09/18/leetcode-no-46-quan-pai-lie/"/>
+    <id>http://lcxq.github.io/2019/09/18/leetcode-no-46-quan-pai-lie/</id>
+    <published>2019-09-18T08:45:01.000Z</published>
+    <updated>2019-09-18T12:31:18.556Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;全排列&quot;&gt;&lt;a href=&quot;#全排列&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.45 跳跃游戏Ⅱ</title>
+    <link href="http://lcxq.github.io/2019/09/18/leetcode-no-45-tiao-yue-you-xi-ii/"/>
+    <id>http://lcxq.github.io/2019/09/18/leetcode-no-45-tiao-yue-you-xi-ii/</id>
+    <published>2019-09-18T04:59:25.000Z</published>
+    <updated>2019-09-18T07:02:41.192Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;跳跃游戏Ⅱ&quot;&gt;&lt;a href=&quot;#跳跃游戏Ⅱ&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.44 通配符匹配</title>
+    <link href="http://lcxq.github.io/2019/09/17/leetcode-no-44-tong-pei-fu-pi-pei/"/>
+    <id>http://lcxq.github.io/2019/09/17/leetcode-no-44-tong-pei-fu-pi-pei/</id>
+    <published>2019-09-17T08:44:53.000Z</published>
+    <updated>2019-09-17T08:49:32.920Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;通配符匹配&quot;&gt;&lt;a href=&quot;#通配符匹配&quot; class=&quot;headerlink&quot; title=&quot;通配符匹配&quot;&gt;&lt;/a&gt;通配符匹配&lt;/h1&gt;&lt;p&gt;给定一个字符串 (s) 和一个字符模式 (p) ，实现一个支持 ‘?’ 和 ‘*’
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.43 字符串相乘</title>
+    <link href="http://lcxq.github.io/2019/09/17/leetcode-no-43-zi-fu-chuan-xiang-cheng/"/>
+    <id>http://lcxq.github.io/2019/09/17/leetcode-no-43-zi-fu-chuan-xiang-cheng/</id>
+    <published>2019-09-17T06:11:49.000Z</published>
+    <updated>2019-09-17T06:45:33.901Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;字符串相乘&quot;&gt;&lt;a href=&quot;#字符串相乘&quot; class=&quot;headerlink&quot; title=&quot;字符串相乘&quot;&gt;&lt;/a&gt;字符串相乘&lt;/h1&gt;&lt;p&gt;给定两个以字符串形式表示的非负整数 &lt;em&gt;num1&lt;/em&gt; 和 &lt;em&gt;num2&lt;/em&gt;，返回
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.42 接雨水</title>
+    <link href="http://lcxq.github.io/2019/09/17/leetcode-no-42-jie-yu-shui/"/>
+    <id>http://lcxq.github.io/2019/09/17/leetcode-no-42-jie-yu-shui/</id>
+    <published>2019-09-17T05:56:10.000Z</published>
+    <updated>2019-09-17T06:58:22.701Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;接雨水&quot;&gt;&lt;a href=&quot;#接雨水&quot; class=&quot;headerlink&quot; title=&quot;接雨水&quot;&gt;&lt;/a&gt;接雨水&lt;/h1&gt;&lt;p&gt;给定 &lt;em&gt;n&lt;/em&gt; 个非负整数表示每个宽度为 &lt;strong&gt;1&lt;/strong&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.41 缺失的第一个正数</title>
+    <link href="http://lcxq.github.io/2019/09/16/leetcode-no-41-que-shi-de-di-yi-ge-zheng-shu/"/>
+    <id>http://lcxq.github.io/2019/09/16/leetcode-no-41-que-shi-de-di-yi-ge-zheng-shu/</id>
+    <published>2019-09-16T04:17:10.000Z</published>
+    <updated>2019-09-16T04:27:19.594Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;缺失的第一个正数&quot;&gt;&lt;a href=&quot;#缺失的第一个正数&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.40 组合总和Ⅱ</title>
+    <link href="http://lcxq.github.io/2019/09/15/leetcode-no-40-zu-he-zong-he-ii/"/>
+    <id>http://lcxq.github.io/2019/09/15/leetcode-no-40-zu-he-zong-he-ii/</id>
+    <published>2019-09-15T15:57:14.000Z</published>
+    <updated>2019-09-15T16:00:22.679Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;组合总和Ⅱ&quot;&gt;&lt;a href=&quot;#组合总和Ⅱ&quot; class=&quot;headerlink&quot; title=&quot;组合总和Ⅱ&quot;&gt;&lt;/a&gt;组合总和Ⅱ&lt;/h1&gt;&lt;p&gt;给定一个数组 &lt;em&gt;candidates&lt;/em&gt; 和一个目标数 &lt;em&gt;target&lt;/em&gt; ，找出
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.39 组合总和</title>
+    <link href="http://lcxq.github.io/2019/09/15/leetcode-no-39-zu-he-zong-he/"/>
+    <id>http://lcxq.github.io/2019/09/15/leetcode-no-39-zu-he-zong-he/</id>
+    <published>2019-09-15T14:54:23.000Z</published>
+    <updated>2019-09-15T15:08:30.584Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;组合总和&quot;&gt;&lt;a href=&quot;#组合总和&quot; class=&quot;headerlink&quot; title=&quot;组合总和&quot;&gt;&lt;/a&gt;组合总和&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;说明：&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;所有数字（包括
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.38 报数</title>
+    <link href="http://lcxq.github.io/2019/09/12/leetcode-no-38-bao-shu/"/>
+    <id>http://lcxq.github.io/2019/09/12/leetcode-no-38-bao-shu/</id>
+    <published>2019-09-12T04:19:26.000Z</published>
+    <updated>2019-09-12T04:29:31.488Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;报数&quot;&gt;&lt;a href=&quot;#报数&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.37 解数独</title>
+    <link href="http://lcxq.github.io/2019/09/11/leetcode-no-37-jie-shu-du/"/>
+    <id>http://lcxq.github.io/2019/09/11/leetcode-no-37-jie-shu-du/</id>
+    <published>2019-09-11T14:56:35.000Z</published>
+    <updated>2019-09-17T06:55:48.415Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;解数独&quot;&gt;&lt;a href=&quot;#解数独&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.36 有效的数独</title>
+    <link href="http://lcxq.github.io/2019/09/11/leetcode-no-36-you-xiao-de-shu-du/"/>
+    <id>http://lcxq.github.io/2019/09/11/leetcode-no-36-you-xiao-de-shu-du/</id>
+    <published>2019-09-11T04:44:51.000Z</published>
+    <updated>2019-09-17T06:55:24.259Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;有效的数独&quot;&gt;&lt;a href=&quot;#有效的数独&quot; class=&quot;headerlink&quot; title=&quot;有效的数独&quot;&gt;&lt;/a&gt;有效的数独&lt;/h1&gt;&lt;p&gt;判断一个 9x9
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.35 搜索插入位置</title>
+    <link href="http://lcxq.github.io/2019/09/10/leetcode-no-35-sou-suo-cha-ru-wei-zhi/"/>
+    <id>http://lcxq.github.io/2019/09/10/leetcode-no-35-sou-suo-cha-ru-wei-zhi/</id>
+    <published>2019-09-10T15:30:03.000Z</published>
+    <updated>2019-09-10T15:40:10.727Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;搜索插入位置&quot;&gt;&lt;a href=&quot;#搜索插入位置&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.34 在排序数组中查找元素的第一个和最后一个位置</title>
+    <link href="http://lcxq.github.io/2019/09/10/leetcode-no-34-zai-pai-xu-shu-zu-zhong-cha-zhao-yuan-su-de-di-yi-ge-he-zui-hou-yi-ge-wei-zhi/"/>
+    <id>http://lcxq.github.io/2019/09/10/leetcode-no-34-zai-pai-xu-shu-zu-zhong-cha-zhao-yuan-su-de-di-yi-ge-he-zui-hou-yi-ge-wei-zhi/</id>
+    <published>2019-09-10T11:35:35.000Z</published>
+    <updated>2019-09-15T14:32:17.847Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;在排序数组中查找元素的第一个和最后一个位置&quot;&gt;&lt;a href=&quot;#在排序数组中查找元素的第一个和最后一个位置&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.33 搜索旋转排序数组</title>
+    <link href="http://lcxq.github.io/2019/09/10/leetcode-no-33-sou-suo-xuan-zhuan-pai-xu-shu-zu/"/>
+    <id>http://lcxq.github.io/2019/09/10/leetcode-no-33-sou-suo-xuan-zhuan-pai-xu-shu-zu/</id>
+    <published>2019-09-10T06:44:31.000Z</published>
+    <updated>2019-09-10T06:48:38.017Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;搜索旋转排序数组&quot;&gt;&lt;a href=&quot;#搜索旋转排序数组&quot; class=&quot;headerlink&quot; title=&quot;搜索旋转排序数组&quot;&gt;&lt;/a&gt;搜索旋转排序数组&lt;/h1&gt;&lt;p&gt;假设按照升序排序的数组在预先未知的某个点上进行了旋转。&lt;/p&gt;
+&lt;p&gt;( 例如，数组
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.32 最长有效括号</title>
+    <link href="http://lcxq.github.io/2019/09/06/leetcode-no-32-zui-chang-you-xiao-gua-hao/"/>
+    <id>http://lcxq.github.io/2019/09/06/leetcode-no-32-zui-chang-you-xiao-gua-hao/</id>
+    <published>2019-09-06T09:15:06.000Z</published>
+    <updated>2019-09-06T14:29:56.180Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;最长有效括号&quot;&gt;&lt;a href=&quot;#最长有效括号&quot; class=&quot;headerlink&quot; title=&quot;最长有效括号&quot;&gt;&lt;/a&gt;最长有效括号&lt;/h1&gt;&lt;p&gt;给定一个只包含 ‘(‘ 和 ‘)’
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.31 下一个排列</title>
+    <link href="http://lcxq.github.io/2019/09/06/leetcode-no-31-xia-yi-ge-pai-lie/"/>
+    <id>http://lcxq.github.io/2019/09/06/leetcode-no-31-xia-yi-ge-pai-lie/</id>
+    <published>2019-09-06T09:03:07.000Z</published>
+    <updated>2019-09-06T09:14:31.482Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;下一个排列&quot;&gt;&lt;a href=&quot;#下一个排列&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+</feed>

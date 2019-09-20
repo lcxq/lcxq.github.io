@@ -156,4 +156,42 @@ class Solution {
 }
 ```
 
-官方题解还是巧妙啊......
+## 方法三
+
+更好理解的一个方法，分别两次搜索左边界和右边界。
+
+```java
+class Solution {
+    public int[] searchRange(int[] nums, int target) {
+        int[] res = {-1, -1};
+        if (nums.length == 0) {
+            return res;
+        }
+        int low = 0, high = nums.length - 1;
+        while (low <= high) {
+            int mid = (low + high) / 2;
+            if (nums[mid] == target) {
+                high = mid - 1;
+            } else if (nums[mid] < target) {
+                low = mid + 1;
+            } else high = mid - 1;
+        }
+        if (low == -1 || low == nums.length || nums[low] != target) {
+            return res;
+        }
+        res[0] = low;
+        low = 0; high = nums.length - 1;
+        while (low <= high) {
+            int mid = (low + high) / 2;
+            if (nums[mid] == target) {
+                low = mid + 1;
+            } else if (nums[mid] > target) {
+                high = mid - 1;
+            } else low = mid + 1;
+        }
+        res[1] = high;
+        return res;
+    }
+}
+
+```
