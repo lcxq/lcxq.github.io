@@ -50,7 +50,7 @@ categories: leetcode
 ]
 ```
 
-## 方法
+## 方法一
 
 在上一题的基础上加一个防止重复的步骤以及由于每个数字仅用一次，所以搜索完当前数字就直接看下一个数字。在搜索之前对数组排序便于免重复。
 
@@ -85,6 +85,39 @@ class Solution {
             for (int i = start; i < nums.length; i++) {
                 tempList.add(nums[i]);
                 dfs(tempList, i + 1, remain - nums[i]);
+                tempList.remove(tempList.size() - 1);
+            }
+        }
+    }
+}
+```
+
+## 方法二
+
+在回溯的基础上剪枝，添加条件
+
+    if (i > start && nums[i] == nums[i - 1]) continue;
+
+```java
+class Solution {
+    List<List<Integer>> res = new ArrayList<>();
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        Arrays.sort(candidates);
+        dfs(candidates, new ArrayList<>(), target, 0);
+        return res;
+    }
+    private void dfs(int[] nums, List<Integer> tempList, int remain, int start) {
+        if (remain < 0) {
+            return;
+        } else if (remain == 0) {
+            res.add(new ArrayList<>(tempList));
+        } else {
+            for (int i = start; i < nums.length; i++) {
+                if (i > start && nums[i] == nums[i -1]) {
+                    continue;
+                }
+                tempList.add(nums[i]);
+                dfs(nums, tempList, remain - nums[i], i + 1);
                 tempList.remove(tempList.size() - 1);
             }
         }

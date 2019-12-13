@@ -44,20 +44,15 @@ categories: leetcode
 ```java
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-        HashMap<String, List<String>> hash = new HashMap<>();
+        HashMap<String, List<String>> map = new HashMap<>();
         for (int i = 0; i < strs.length; i++) {
-            char[] s_arr = strs[i].toCharArray();
-            Arrays.sort(s_arr);
-            String key = String.valueOf(s_arr);
-            if (hash.containsKey(key)) {
-                hash.get(key).add(strs[i]);
-            } else {
-                List<String> temp = new ArrayList<String>();
-                temp.add(strs[i]);
-                hash.put(key, temp);
-            }
+            char[] str2List = strs[i].toCharArray();
+            Arrays.sort(str2List);
+            String key = String.valueOf(str2List);
+            if (map.containsKey(key)) map.get(key).add(strs[i]);
+            else map.put(key, new ArrayList<String>(Arrays.asList(strs[i])));
         }
-        return new ArrayList<List<String>>(hash.values());
+        return new ArrayList<List<String>>(map.values());
     }
 }
 ```
