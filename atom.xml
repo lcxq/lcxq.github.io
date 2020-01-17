@@ -51,7 +51,7 @@
     <link href="http://lcxq.github.io/2019/09/27/leetcode-no-52-n-huang-hou-ii/"/>
     <id>http://lcxq.github.io/2019/09/27/leetcode-no-52-n-huang-hou-ii/</id>
     <published>2019-09-27T08:13:59.000Z</published>
-    <updated>2019-09-27T08:16:12.766Z</updated>
+    <updated>2020-01-09T04:28:55.835Z</updated>
     
     <summary type="html">
     
@@ -59,7 +59,7 @@
       
         
         
-          &lt;p&gt;描述就不写了，和上一题几乎一样，知识最后返回可能的情况数而不是所有情况的棋盘，在递归终点的操作处略做修改即可。&lt;/p&gt;
+          &lt;p&gt;描述就不写了，和上一题几乎一样，只是最后返回可能的情况数而不是所有情况的棋盘，在递归终点的操作处略做修改即可。&lt;/p&gt;
 &lt;pre class=&quot; language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token
         
       
