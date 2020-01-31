@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://lcxq.github.io/2020/02/01/leetcode-no-54-luo-xuan-ju-zhen/</loc>
+    <lastmod>2020-01-31</lastmod>
+  </url>  <url>
+    <loc>http://lcxq.github.io/2019/09/18/leetcode-no-46-quan-pai-lie/</loc>
+    <lastmod>2020-01-23</lastmod>
+  </url>  <url>
+    <loc>http://lcxq.github.io/2019/09/12/leetcode-no-38-bao-shu/</loc>
+    <lastmod>2020-01-23</lastmod>
+  </url>  <url>
+    <loc>http://lcxq.github.io/2019/09/10/leetcode-no-33-sou-suo-xuan-zhuan-pai-xu-shu-zu/</loc>
+    <lastmod>2020-01-22</lastmod>
+  </url>  <url>
+    <loc>http://lcxq.github.io/2019/09/06/leetcode-no-31-xia-yi-ge-pai-lie/</loc>
+    <lastmod>2020-01-21</lastmod>
+  </url>  <url>
+    <loc>http://lcxq.github.io/2019/09/03/leetcode-no-30-chuan-lian-suo-you-dan-ci-de-zi-chuan/</loc>
+    <lastmod>2020-01-17</lastmod>
+  </url>  <url>
+    <loc>http://lcxq.github.io/2019/09/02/leetcode-no-28-shi-xian-strstr/</loc>
+    <lastmod>2020-01-17</lastmod>
+  </url>  <url>
     <loc>http://lcxq.github.io/2019/08/12/leetcode-no-1-liang-shu-zhi-he/</loc>
     <lastmod>2020-01-17</lastmod>
   </url>  <url>
@@ -43,9 +64,6 @@
     <loc>http://lcxq.github.io/2019/09/20/leetcode-no-47-quan-pai-lie-ii/</loc>
     <lastmod>2019-09-20</lastmod>
   </url>  <url>
-    <loc>http://lcxq.github.io/2019/09/18/leetcode-no-46-quan-pai-lie/</loc>
-    <lastmod>2019-09-18</lastmod>
-  </url>  <url>
     <loc>http://lcxq.github.io/2019/09/18/leetcode-no-45-tiao-yue-you-xi-ii/</loc>
     <lastmod>2019-09-18</lastmod>
   </url>  <url>
@@ -73,29 +91,14 @@
     <loc>http://lcxq.github.io/2019/09/10/leetcode-no-34-zai-pai-xu-shu-zu-zhong-cha-zhao-yuan-su-de-di-yi-ge-he-zui-hou-yi-ge-wei-zhi/</loc>
     <lastmod>2019-09-15</lastmod>
   </url>  <url>
-    <loc>http://lcxq.github.io/2019/09/12/leetcode-no-38-bao-shu/</loc>
-    <lastmod>2019-09-12</lastmod>
-  </url>  <url>
     <loc>http://lcxq.github.io/2019/09/10/leetcode-no-35-sou-suo-cha-ru-wei-zhi/</loc>
-    <lastmod>2019-09-10</lastmod>
-  </url>  <url>
-    <loc>http://lcxq.github.io/2019/09/10/leetcode-no-33-sou-suo-xuan-zhuan-pai-xu-shu-zu/</loc>
-    <lastmod>2019-09-10</lastmod>
-  </url>  <url>
-    <loc>http://lcxq.github.io/2019/09/03/leetcode-no-30-chuan-lian-suo-you-dan-ci-de-zi-chuan/</loc>
     <lastmod>2019-09-10</lastmod>
   </url>  <url>
     <loc>http://lcxq.github.io/2019/08/14/leetcode-no-3-wu-chong-fu-zi-fu-de-zui-chang-zi-chuan/</loc>
     <lastmod>2019-09-07</lastmod>
   </url>  <url>
-    <loc>http://lcxq.github.io/2019/09/06/leetcode-no-31-xia-yi-ge-pai-lie/</loc>
-    <lastmod>2019-09-06</lastmod>
-  </url>  <url>
     <loc>http://lcxq.github.io/2019/09/03/leetcode-no-29-liang-shu-xiang-chu/</loc>
     <lastmod>2019-09-03</lastmod>
-  </url>  <url>
-    <loc>http://lcxq.github.io/2019/09/02/leetcode-no-28-shi-xian-strstr/</loc>
-    <lastmod>2019-09-02</lastmod>
   </url>  <url>
     <loc>http://lcxq.github.io/2019/09/02/leetcode-no-26-shan-chu-pai-xu-shu-zu-zhong-de-chong-fu-xiang/</loc>
     <lastmod>2019-09-02</lastmod>
