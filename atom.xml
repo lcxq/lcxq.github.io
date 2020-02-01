@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lcxq.github.io/"/>
-  <updated>2020-01-31T16:42:37.174Z</updated>
+  <updated>2020-02-01T06:56:49.085Z</updated>
   <id>http://lcxq.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>leetcode No.55 跳跃游戏</title>
+    <link href="http://lcxq.github.io/2020/02/01/leetcode-no-55-tiao-yue-you-xi/"/>
+    <id>http://lcxq.github.io/2020/02/01/leetcode-no-55-tiao-yue-you-xi/</id>
+    <published>2020-02-01T06:50:28.000Z</published>
+    <updated>2020-02-01T06:56:49.085Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;跳跃游戏&quot;&gt;&lt;a href=&quot;#跳跃游戏&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>leetcode No.54 螺旋矩阵</title>
@@ -574,36 +604,6 @@
         
         
           &lt;h1 id=&quot;有效的数独&quot;&gt;&lt;a href=&quot;#有效的数独&quot; class=&quot;headerlink&quot; title=&quot;有效的数独&quot;&gt;&lt;/a&gt;有效的数独&lt;/h1&gt;&lt;p&gt;判断一个 9x9
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.35 搜索插入位置</title>
-    <link href="http://lcxq.github.io/2019/09/10/leetcode-no-35-sou-suo-cha-ru-wei-zhi/"/>
-    <id>http://lcxq.github.io/2019/09/10/leetcode-no-35-sou-suo-cha-ru-wei-zhi/</id>
-    <published>2019-09-10T15:30:03.000Z</published>
-    <updated>2019-09-10T15:40:10.727Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;搜索插入位置&quot;&gt;&lt;a href=&quot;#搜索插入位置&quot; class=&quot;headerlink&quot;
         
       
     
