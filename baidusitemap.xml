@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://lcxq.github.io/2020/02/01/leetcode-no-56-he-bing-qu-jian/</loc>
+    <lastmod>2020-02-01</lastmod>
+  </url>  <url>
     <loc>http://lcxq.github.io/2020/02/01/leetcode-no-55-tiao-yue-you-xi/</loc>
     <lastmod>2020-02-01</lastmod>
   </url>  <url>
@@ -163,10 +166,10 @@
     <loc>http://lcxq.github.io/2019/08/17/leetcode-no-5-zui-chang-hui-wen-zi-chuan/</loc>
     <lastmod>2019-08-17</lastmod>
   </url>  <url>
-    <loc>http://lcxq.github.io/2019/08/12/hellomyblog/</loc>
+    <loc>http://lcxq.github.io/2019/08/12/leetcode-no-2-liang-shu-xiang-jia/</loc>
     <lastmod>2019-08-14</lastmod>
   </url>  <url>
-    <loc>http://lcxq.github.io/2019/08/12/leetcode-no-2-liang-shu-xiang-jia/</loc>
+    <loc>http://lcxq.github.io/2019/08/12/hellomyblog/</loc>
     <lastmod>2019-08-14</lastmod>
   </url>
 </urlset>

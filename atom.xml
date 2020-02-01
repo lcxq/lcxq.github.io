@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lcxq.github.io/"/>
-  <updated>2020-02-01T06:56:49.085Z</updated>
+  <updated>2020-02-01T08:43:54.762Z</updated>
   <id>http://lcxq.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>leetcode No.56 合并区间</title>
+    <link href="http://lcxq.github.io/2020/02/01/leetcode-no-56-he-bing-qu-jian/"/>
+    <id>http://lcxq.github.io/2020/02/01/leetcode-no-56-he-bing-qu-jian/</id>
+    <published>2020-02-01T08:27:26.000Z</published>
+    <updated>2020-02-01T08:43:54.762Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;合并区间&quot;&gt;&lt;a href=&quot;#合并区间&quot; class=&quot;headerlink&quot; title=&quot;合并区间&quot;&gt;&lt;/a&gt;合并区间&lt;/h2&gt;&lt;p&gt;给出一个区间的集合，请合并所有重叠的区间。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;示例
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>leetcode No.55 跳跃游戏</title>
@@ -574,36 +605,6 @@
         
         
           &lt;h1 id=&quot;解数独&quot;&gt;&lt;a href=&quot;#解数独&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.36 有效的数独</title>
-    <link href="http://lcxq.github.io/2019/09/11/leetcode-no-36-you-xiao-de-shu-du/"/>
-    <id>http://lcxq.github.io/2019/09/11/leetcode-no-36-you-xiao-de-shu-du/</id>
-    <published>2019-09-11T04:44:51.000Z</published>
-    <updated>2019-09-17T06:55:24.259Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;有效的数独&quot;&gt;&lt;a href=&quot;#有效的数独&quot; class=&quot;headerlink&quot; title=&quot;有效的数独&quot;&gt;&lt;/a&gt;有效的数独&lt;/h1&gt;&lt;p&gt;判断一个 9x9
         
       
     
