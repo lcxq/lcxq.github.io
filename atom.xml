@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lcxq.github.io/"/>
-  <updated>2020-02-02T09:43:22.434Z</updated>
+  <updated>2020-02-02T14:00:44.592Z</updated>
   <id>http://lcxq.github.io/</id>
   
   <author>
@@ -15,6 +15,126 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>leetcode No.66 加一</title>
+    <link href="http://lcxq.github.io/2020/02/02/leetcode-no-66-jia-yi/"/>
+    <id>http://lcxq.github.io/2020/02/02/leetcode-no-66-jia-yi/</id>
+    <published>2020-02-02T13:58:04.000Z</published>
+    <updated>2020-02-02T14:00:44.592Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;加一&quot;&gt;&lt;a href=&quot;#加一&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.64 最小路径和</title>
+    <link href="http://lcxq.github.io/2020/02/02/leetcode-no-64-zui-xiao-lu-jing-he/"/>
+    <id>http://lcxq.github.io/2020/02/02/leetcode-no-64-zui-xiao-lu-jing-he/</id>
+    <published>2020-02-02T13:12:24.000Z</published>
+    <updated>2020-02-02T13:18:59.457Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;最小路径和&quot;&gt;&lt;a href=&quot;#最小路径和&quot; class=&quot;headerlink&quot; title=&quot;最小路径和&quot;&gt;&lt;/a&gt;最小路径和&lt;/h2&gt;&lt;p&gt;给定一个包含非负整数的 &lt;em&gt;m x n&lt;/em&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.63 不同路径Ⅱ</title>
+    <link href="http://lcxq.github.io/2020/02/02/leetcode-no-63-bu-tong-lu-jing-ii/"/>
+    <id>http://lcxq.github.io/2020/02/02/leetcode-no-63-bu-tong-lu-jing-ii/</id>
+    <published>2020-02-02T12:31:24.000Z</published>
+    <updated>2020-02-02T12:36:45.631Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;不同路径Ⅱ&quot;&gt;&lt;a href=&quot;#不同路径Ⅱ&quot; class=&quot;headerlink&quot; title=&quot;不同路径Ⅱ&quot;&gt;&lt;/a&gt;不同路径Ⅱ&lt;/h2&gt;&lt;p&gt;一个机器人位于一个 &lt;em&gt;m x n&lt;/em&gt; 网格的左上角 （起始点在下图中标记为“Start”
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.62 不同路径</title>
+    <link href="http://lcxq.github.io/2020/02/02/leetcode-no-62-bu-tong-lu-jing/"/>
+    <id>http://lcxq.github.io/2020/02/02/leetcode-no-62-bu-tong-lu-jing/</id>
+    <published>2020-02-02T10:12:44.000Z</published>
+    <updated>2020-02-02T12:15:49.194Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;不同路径&quot;&gt;&lt;a href=&quot;#不同路径&quot; class=&quot;headerlink&quot; title=&quot;不同路径&quot;&gt;&lt;/a&gt;不同路径&lt;/h2&gt;&lt;p&gt;一个机器人位于一个 &lt;em&gt;m x n&lt;/em&gt; 网格的左上角 （起始点在下图中标记为“Start”
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>leetcode No.61 旋转链表</title>
@@ -489,126 +609,6 @@
         
         
           &lt;h1 id=&quot;全排列&quot;&gt;&lt;a href=&quot;#全排列&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.45 跳跃游戏Ⅱ</title>
-    <link href="http://lcxq.github.io/2019/09/18/leetcode-no-45-tiao-yue-you-xi-ii/"/>
-    <id>http://lcxq.github.io/2019/09/18/leetcode-no-45-tiao-yue-you-xi-ii/</id>
-    <published>2019-09-18T04:59:25.000Z</published>
-    <updated>2020-02-02T08:52:19.472Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;跳跃游戏Ⅱ&quot;&gt;&lt;a href=&quot;#跳跃游戏Ⅱ&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.44 通配符匹配</title>
-    <link href="http://lcxq.github.io/2019/09/17/leetcode-no-44-tong-pei-fu-pi-pei/"/>
-    <id>http://lcxq.github.io/2019/09/17/leetcode-no-44-tong-pei-fu-pi-pei/</id>
-    <published>2019-09-17T08:44:53.000Z</published>
-    <updated>2020-02-02T08:52:19.473Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;通配符匹配&quot;&gt;&lt;a href=&quot;#通配符匹配&quot; class=&quot;headerlink&quot; title=&quot;通配符匹配&quot;&gt;&lt;/a&gt;通配符匹配&lt;/h1&gt;&lt;p&gt;给定一个字符串 (s) 和一个字符模式 (p) ，实现一个支持 ‘?’ 和 ‘*’
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.43 字符串相乘</title>
-    <link href="http://lcxq.github.io/2019/09/17/leetcode-no-43-zi-fu-chuan-xiang-cheng/"/>
-    <id>http://lcxq.github.io/2019/09/17/leetcode-no-43-zi-fu-chuan-xiang-cheng/</id>
-    <published>2019-09-17T06:11:49.000Z</published>
-    <updated>2020-02-02T08:52:19.473Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;字符串相乘&quot;&gt;&lt;a href=&quot;#字符串相乘&quot; class=&quot;headerlink&quot; title=&quot;字符串相乘&quot;&gt;&lt;/a&gt;字符串相乘&lt;/h1&gt;&lt;p&gt;给定两个以字符串形式表示的非负整数 &lt;em&gt;num1&lt;/em&gt; 和 &lt;em&gt;num2&lt;/em&gt;，返回
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.42 接雨水</title>
-    <link href="http://lcxq.github.io/2019/09/17/leetcode-no-42-jie-yu-shui/"/>
-    <id>http://lcxq.github.io/2019/09/17/leetcode-no-42-jie-yu-shui/</id>
-    <published>2019-09-17T05:56:10.000Z</published>
-    <updated>2020-02-02T08:52:19.472Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;接雨水&quot;&gt;&lt;a href=&quot;#接雨水&quot; class=&quot;headerlink&quot; title=&quot;接雨水&quot;&gt;&lt;/a&gt;接雨水&lt;/h1&gt;&lt;p&gt;给定 &lt;em&gt;n&lt;/em&gt; 个非负整数表示每个宽度为 &lt;strong&gt;1&lt;/strong&gt;
         
       
     
