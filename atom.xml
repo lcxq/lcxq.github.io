@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lcxq.github.io/"/>
-  <updated>2020-02-05T16:55:51.116Z</updated>
+  <updated>2020-02-11T07:27:37.925Z</updated>
   <id>http://lcxq.github.io/</id>
   
   <author>
@@ -15,6 +15,216 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>leetcode No.80 删除排序数组中的重复项Ⅱ</title>
+    <link href="http://lcxq.github.io/2020/02/11/leetcode-no-80-shan-chu-pai-xu-shu-zu-zhong-de-chong-fu-xiang-ii/"/>
+    <id>http://lcxq.github.io/2020/02/11/leetcode-no-80-shan-chu-pai-xu-shu-zu-zhong-de-chong-fu-xiang-ii/</id>
+    <published>2020-02-11T07:25:34.000Z</published>
+    <updated>2020-02-11T07:27:37.925Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;删除排序数组中的重复项Ⅱ&quot;&gt;&lt;a href=&quot;#删除排序数组中的重复项Ⅱ&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.79 单词搜索</title>
+    <link href="http://lcxq.github.io/2020/02/11/leetcode-no-79-dan-ci-sou-suo/"/>
+    <id>http://lcxq.github.io/2020/02/11/leetcode-no-79-dan-ci-sou-suo/</id>
+    <published>2020-02-10T17:25:04.000Z</published>
+    <updated>2020-02-10T17:40:22.614Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;单词搜索&quot;&gt;&lt;a href=&quot;#单词搜索&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.78 子集</title>
+    <link href="http://lcxq.github.io/2020/02/10/leetcode-no-78-zi-ji/"/>
+    <id>http://lcxq.github.io/2020/02/10/leetcode-no-78-zi-ji/</id>
+    <published>2020-02-10T15:55:38.000Z</published>
+    <updated>2020-02-10T15:57:49.813Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;子集&quot;&gt;&lt;a href=&quot;#子集&quot; class=&quot;headerlink&quot; title=&quot;子集&quot;&gt;&lt;/a&gt;子集&lt;/h2&gt;&lt;p&gt;给定一组&lt;strong&gt;不含重复元素&lt;/strong&gt;的整数数组
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.77 组合</title>
+    <link href="http://lcxq.github.io/2020/02/10/leetcode-no-77-zu-he/"/>
+    <id>http://lcxq.github.io/2020/02/10/leetcode-no-77-zu-he/</id>
+    <published>2020-02-10T15:42:16.000Z</published>
+    <updated>2020-02-10T15:43:32.689Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;组合&quot;&gt;&lt;a href=&quot;#组合&quot; class=&quot;headerlink&quot; title=&quot;组合&quot;&gt;&lt;/a&gt;组合&lt;/h2&gt;&lt;p&gt;给定两个整数 &lt;em&gt;n&lt;/em&gt; 和 &lt;em&gt;k&lt;/em&gt;，返回 &lt;em&gt;1 … n&lt;/em&gt; 中所有可能的 k
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.76 最小覆盖子串</title>
+    <link href="http://lcxq.github.io/2020/02/10/leetcode-no-76-zui-xiao-fu-gai-zi-chuan/"/>
+    <id>http://lcxq.github.io/2020/02/10/leetcode-no-76-zui-xiao-fu-gai-zi-chuan/</id>
+    <published>2020-02-10T13:59:48.000Z</published>
+    <updated>2020-02-10T14:01:17.703Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;最小覆盖子串&quot;&gt;&lt;a href=&quot;#最小覆盖子串&quot; class=&quot;headerlink&quot; title=&quot;最小覆盖子串&quot;&gt;&lt;/a&gt;最小覆盖子串&lt;/h2&gt;&lt;p&gt;给你一个字符串 S、一个字符串 T，请在字符串 S 里面找出：包含 T
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.75 颜色分类</title>
+    <link href="http://lcxq.github.io/2020/02/10/leetcode-no-75-yan-se-fen-lei/"/>
+    <id>http://lcxq.github.io/2020/02/10/leetcode-no-75-yan-se-fen-lei/</id>
+    <published>2020-02-10T08:14:17.000Z</published>
+    <updated>2020-02-10T08:19:19.889Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;颜色分类&quot;&gt;&lt;a href=&quot;#颜色分类&quot; class=&quot;headerlink&quot; title=&quot;颜色分类&quot;&gt;&lt;/a&gt;颜色分类&lt;/h2&gt;&lt;p&gt;给定一个包含红色、白色和蓝色，一共 n
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.74 搜索二维矩阵</title>
+    <link href="http://lcxq.github.io/2020/02/09/leetcode-no-74-sou-suo-er-wei-ju-zhen/"/>
+    <id>http://lcxq.github.io/2020/02/09/leetcode-no-74-sou-suo-er-wei-ju-zhen/</id>
+    <published>2020-02-09T14:59:30.000Z</published>
+    <updated>2020-02-09T15:07:00.705Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;搜索二维矩阵&quot;&gt;&lt;a href=&quot;#搜索二维矩阵&quot; class=&quot;headerlink&quot; title=&quot;搜索二维矩阵&quot;&gt;&lt;/a&gt;搜索二维矩阵&lt;/h2&gt;&lt;p&gt;编写一个高效的算法来判断 &lt;em&gt;m x n&lt;/em&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>leetcode No.73 矩阵置零</title>
@@ -394,222 +604,6 @@
         
         
           &lt;h2 id=&quot;旋转链表&quot;&gt;&lt;a href=&quot;#旋转链表&quot; class=&quot;headerlink&quot; title=&quot;旋转链表&quot;&gt;&lt;/a&gt;旋转链表&lt;/h2&gt;&lt;p&gt;给定一个链表，旋转链表，将链表每个节点向右移动 &lt;em&gt;k&lt;/em&gt; 个位置，其中 &lt;em&gt;k&lt;/em&gt;
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.60 第k个排列</title>
-    <link href="http://lcxq.github.io/2020/02/01/leetcode-no-60-di-k-ge-pai-lie/"/>
-    <id>http://lcxq.github.io/2020/02/01/leetcode-no-60-di-k-ge-pai-lie/</id>
-    <published>2020-02-01T12:37:23.000Z</published>
-    <updated>2020-02-02T08:52:19.472Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;第k个排列&quot;&gt;&lt;a href=&quot;#第k个排列&quot; class=&quot;headerlink&quot; title=&quot;第k个排列&quot;&gt;&lt;/a&gt;第k个排列&lt;/h2&gt;&lt;p&gt;给出集合 [1,2,3,…,n]，其所有元素共有 n!
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.59 螺旋矩阵Ⅱ</title>
-    <link href="http://lcxq.github.io/2020/02/01/leetcode-no-59-luo-xuan-ju-zhen-ii/"/>
-    <id>http://lcxq.github.io/2020/02/01/leetcode-no-59-luo-xuan-ju-zhen-ii/</id>
-    <published>2020-02-01T10:35:58.000Z</published>
-    <updated>2020-02-02T08:52:19.472Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;给定一个正整数 &lt;em&gt;n&lt;/em&gt;，生成一个包含 1 到 &lt;em&gt;n&lt;sup&gt;2&lt;/sup&gt;&lt;/em&gt; 所有元素，且元素按顺时针顺序螺旋排列的正方形矩阵。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;示例:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入: 3
-输出:
-[
-[
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.58 最后一个单词的长度</title>
-    <link href="http://lcxq.github.io/2020/02/01/leetcode-no-58-zui-hou-yi-ge-dan-ci-de-chang-du/"/>
-    <id>http://lcxq.github.io/2020/02/01/leetcode-no-58-zui-hou-yi-ge-dan-ci-de-chang-du/</id>
-    <published>2020-02-01T10:16:24.000Z</published>
-    <updated>2020-02-02T08:52:19.472Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;最后一个单词的长度&quot;&gt;&lt;a href=&quot;#最后一个单词的长度&quot; class=&quot;headerlink&quot; title=&quot;最后一个单词的长度&quot;&gt;&lt;/a&gt;最后一个单词的长度&lt;/h2&gt;&lt;p&gt;给定一个仅包含大小写字母和空格 ‘ ‘
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.57 插入区间</title>
-    <link href="http://lcxq.github.io/2020/02/01/leetcode-no-57-cha-ru-qu-jian/"/>
-    <id>http://lcxq.github.io/2020/02/01/leetcode-no-57-cha-ru-qu-jian/</id>
-    <published>2020-02-01T10:11:13.000Z</published>
-    <updated>2020-02-02T08:52:19.472Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;插入区间&quot;&gt;&lt;a href=&quot;#插入区间&quot; class=&quot;headerlink&quot; title=&quot;插入区间&quot;&gt;&lt;/a&gt;插入区间&lt;/h2&gt;&lt;p&gt;给出一个无重叠的
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.56 合并区间</title>
-    <link href="http://lcxq.github.io/2020/02/01/leetcode-no-56-he-bing-qu-jian/"/>
-    <id>http://lcxq.github.io/2020/02/01/leetcode-no-56-he-bing-qu-jian/</id>
-    <published>2020-02-01T08:27:26.000Z</published>
-    <updated>2020-02-02T08:52:19.472Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;合并区间&quot;&gt;&lt;a href=&quot;#合并区间&quot; class=&quot;headerlink&quot; title=&quot;合并区间&quot;&gt;&lt;/a&gt;合并区间&lt;/h2&gt;&lt;p&gt;给出一个区间的集合，请合并所有重叠的区间。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;示例
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.55 跳跃游戏</title>
-    <link href="http://lcxq.github.io/2020/02/01/leetcode-no-55-tiao-yue-you-xi/"/>
-    <id>http://lcxq.github.io/2020/02/01/leetcode-no-55-tiao-yue-you-xi/</id>
-    <published>2020-02-01T06:50:28.000Z</published>
-    <updated>2020-02-02T08:52:19.472Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;跳跃游戏&quot;&gt;&lt;a href=&quot;#跳跃游戏&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.54 螺旋矩阵</title>
-    <link href="http://lcxq.github.io/2020/02/01/leetcode-no-54-luo-xuan-ju-zhen/"/>
-    <id>http://lcxq.github.io/2020/02/01/leetcode-no-54-luo-xuan-ju-zhen/</id>
-    <published>2020-01-31T16:28:02.000Z</published>
-    <updated>2020-02-02T08:52:19.472Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;螺旋矩阵&quot;&gt;&lt;a href=&quot;#螺旋矩阵&quot; class=&quot;headerlink&quot; title=&quot;螺旋矩阵&quot;&gt;&lt;/a&gt;螺旋矩阵&lt;/h2&gt;&lt;p&gt;给定一个包含 &lt;em&gt;m&lt;/em&gt; x &lt;em&gt;n&lt;/em&gt; 个元素的矩阵（&lt;em&gt;m&lt;/em&gt; 行,
         
       
     
