@@ -339,7 +339,7 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        181
+                        177
                     </div>
                     
 
@@ -368,18 +368,17 @@
         <span class="token keyword">if</span> <span class="token punctuation">(</span>head <span class="token operator">==</span> null<span class="token punctuation">)</span> <span class="token keyword">return</span> null<span class="token punctuation">;</span>
         ListNode H <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
         H<span class="token punctuation">.</span>next <span class="token operator">=</span> head<span class="token punctuation">;</span>
-        ListNode p1 <span class="token operator">=</span> H<span class="token punctuation">,</span> p2 <span class="token operator">=</span> head<span class="token punctuation">,</span> pre <span class="token operator">=</span> p1<span class="token punctuation">;</span>
+        ListNode p1 <span class="token operator">=</span> H<span class="token punctuation">,</span> p2 <span class="token operator">=</span> head<span class="token punctuation">;</span>
         <span class="token keyword">while</span> <span class="token punctuation">(</span>p2 <span class="token operator">!=</span> null<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">int</span> tmp <span class="token operator">=</span> p2<span class="token punctuation">.</span>val<span class="token punctuation">;</span>
             <span class="token keyword">int</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-            <span class="token keyword">int</span> temp <span class="token operator">=</span> p2<span class="token punctuation">.</span>val<span class="token punctuation">;</span>
-            <span class="token keyword">while</span> <span class="token punctuation">(</span>p2 <span class="token operator">!=</span> null <span class="token operator">&amp;&amp;</span> p2<span class="token punctuation">.</span>val <span class="token operator">==</span> temp<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">while</span> <span class="token punctuation">(</span>p2 <span class="token operator">!=</span> null <span class="token operator">&amp;&amp;</span> p2<span class="token punctuation">.</span>val <span class="token operator">==</span> tmp<span class="token punctuation">)</span> <span class="token punctuation">{</span>
                 p2 <span class="token operator">=</span> p2<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
-                pre <span class="token operator">=</span> pre<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
                 count <span class="token operator">++</span><span class="token punctuation">;</span>
             <span class="token punctuation">}</span>
-            <span class="token keyword">if</span> <span class="token punctuation">(</span>count <span class="token operator">></span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>count <span class="token operator">>=</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
                 p1<span class="token punctuation">.</span>next <span class="token operator">=</span> p2<span class="token punctuation">;</span>
-            <span class="token punctuation">}</span> <span class="token keyword">else</span> p1 <span class="token operator">=</span> pre<span class="token punctuation">;</span>
+            <span class="token punctuation">}</span> <span class="token keyword">else</span> p1 <span class="token operator">=</span> p1<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
         <span class="token punctuation">}</span>
         <span class="token keyword">return</span> H<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
@@ -734,7 +733,7 @@
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">36k</span>
+            <span class="white-color">45.1k</span>
             
 
             <br>
