@@ -295,12 +295,12 @@
                                 <span class="chip bg-color">leetcode</span>
                             </a>
                         
-                            <a href="/tags/算法/" target="_blank">
-                                <span class="chip bg-color">算法</span>
-                            </a>
-                        
                             <a href="/tags/Java/" target="_blank">
                                 <span class="chip bg-color">Java</span>
+                            </a>
+                        
+                            <a href="/tags/算法/" target="_blank">
+                                <span class="chip bg-color">算法</span>
                             </a>
                         
                     </div>
@@ -337,7 +337,7 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        420
+                        500
                     </div>
                     
 
@@ -378,7 +378,7 @@ babgbag
 babgbag
   ^  ^^
 babgbag
-    ^^^</code></pre><h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><p>递归暴搜的方法都会超时，这里直接写动态规划的方法。</p>
+    ^^^</code></pre><h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><p>动态规划</p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
     <span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">numDistinct</span><span class="token punctuation">(</span>String s<span class="token punctuation">,</span> String t<span class="token punctuation">)</span> <span class="token punctuation">{</span>
         <span class="token keyword">int</span> s_len <span class="token operator">=</span> s<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -400,29 +400,49 @@ babgbag
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre>
 <h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><p>动态规划的滚动数组优化,降低时间复杂度。</p>
-<pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">numDistinct</span><span class="token punctuation">(</span>String s<span class="token punctuation">,</span> String t<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">int</span> s_len <span class="token operator">=</span> s<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">int</span> t_len <span class="token operator">=</span> t<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> dp <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">int</span><span class="token punctuation">[</span>s_len <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> s_len<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        dp<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> t_i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> t_i <span class="token operator">&lt;=</span> t_len<span class="token punctuation">;</span> t_i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">int</span> pre <span class="token operator">=</span> dp<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-        dp<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> s_i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> s_i <span class="token operator">&lt;=</span> s_len<span class="token punctuation">;</span> s_i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">int</span> temp <span class="token operator">=</span> dp<span class="token punctuation">[</span>s_i<span class="token punctuation">]</span><span class="token punctuation">;</span>
-            <span class="token keyword">if</span> <span class="token punctuation">(</span>t<span class="token punctuation">.</span><span class="token function">charAt</span><span class="token punctuation">(</span>t_i <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">==</span> s<span class="token punctuation">.</span><span class="token function">charAt</span><span class="token punctuation">(</span>s_i <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                dp<span class="token punctuation">[</span>s_i<span class="token punctuation">]</span> <span class="token operator">=</span> dp<span class="token punctuation">[</span>s_i <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">+</span> pre<span class="token punctuation">;</span>
-            <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
-                dp<span class="token punctuation">[</span>s_i<span class="token punctuation">]</span> <span class="token operator">=</span> dp<span class="token punctuation">[</span>s_i <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<pre class=" language-java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">numDistinct</span><span class="token punctuation">(</span>String s<span class="token punctuation">,</span> String t<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">int</span> s_len <span class="token operator">=</span> s<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> t_len <span class="token operator">=</span> t<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> dp <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">int</span><span class="token punctuation">[</span>t_len <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> s_len<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            dp<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+            <span class="token keyword">int</span> pre <span class="token operator">=</span> dp<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+            <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> j <span class="token operator">&lt;=</span> t_len<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token keyword">int</span> temp <span class="token operator">=</span> dp<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">;</span>
+                <span class="token keyword">if</span> <span class="token punctuation">(</span>s<span class="token punctuation">.</span><span class="token function">charAt</span><span class="token punctuation">(</span>i <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">==</span> t<span class="token punctuation">.</span><span class="token function">charAt</span><span class="token punctuation">(</span>j <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span> dp<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> pre <span class="token operator">+</span> dp<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">;</span>
+                pre <span class="token operator">=</span> temp<span class="token punctuation">;</span>
             <span class="token punctuation">}</span>
-            pre <span class="token operator">=</span> temp<span class="token punctuation">;</span>
         <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> dp<span class="token punctuation">[</span>t_len<span class="token punctuation">]</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
-    <span class="token keyword">return</span> dp<span class="token punctuation">[</span>s_len<span class="token punctuation">]</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre>
+<span class="token punctuation">}</span></code></pre>
+<h2 id="方法三"><a href="#方法三" class="headerlink" title="方法三"></a>方法三</h2><p>回过头重做时候自己写的回溯递归，用memo保存增量即可AC。</p>
+<pre class=" language-java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
+    <span class="token keyword">int</span> res <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">numDistinct</span><span class="token punctuation">(</span>String s<span class="token punctuation">,</span> String t<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">dfs</span><span class="token punctuation">(</span>s<span class="token punctuation">,</span> t<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token keyword">new</span> <span class="token class-name">HashMap</span><span class="token operator">&lt;</span><span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> res<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">private</span> <span class="token keyword">void</span> <span class="token function">dfs</span><span class="token punctuation">(</span>String s<span class="token punctuation">,</span> String t<span class="token punctuation">,</span> <span class="token keyword">int</span> start_s<span class="token punctuation">,</span> <span class="token keyword">int</span> start_t<span class="token punctuation">,</span> HashMap<span class="token operator">&lt;</span>String<span class="token punctuation">,</span> Integer<span class="token operator">></span> map<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>start_t <span class="token operator">==</span> t<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            res <span class="token operator">++</span><span class="token punctuation">;</span>
+            <span class="token keyword">return</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        String key <span class="token operator">=</span> start_s <span class="token operator">+</span> <span class="token string">"@"</span> <span class="token operator">+</span> start_t<span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>map<span class="token punctuation">.</span><span class="token function">containsKey</span><span class="token punctuation">(</span>key<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            res <span class="token operator">+=</span> map<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>key<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">return</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">int</span> temp <span class="token operator">=</span> res<span class="token punctuation">;</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> start_s<span class="token punctuation">;</span> i <span class="token operator">&lt;</span> s<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>s<span class="token punctuation">.</span><span class="token function">charAt</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span> <span class="token operator">==</span> t<span class="token punctuation">.</span><span class="token function">charAt</span><span class="token punctuation">(</span>start_t<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token function">dfs</span><span class="token punctuation">(</span>s<span class="token punctuation">,</span> t<span class="token punctuation">,</span> i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">,</span> start_t <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">,</span> map<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        map<span class="token punctuation">.</span><span class="token function">put</span><span class="token punctuation">(</span>key<span class="token punctuation">,</span> res <span class="token operator">-</span> temp<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre>
 
             </div>
             <hr/>
@@ -542,12 +562,12 @@ babgbag
                         <span class="chip bg-color">leetcode</span>
                     </a>
                     
-                    <a href="/tags/算法/" target="_blank">
-                        <span class="chip bg-color">算法</span>
-                    </a>
-                    
                     <a href="/tags/Java/" target="_blank">
                         <span class="chip bg-color">Java</span>
+                    </a>
+                    
+                    <a href="/tags/算法/" target="_blank">
+                        <span class="chip bg-color">算法</span>
                     </a>
                     
                 </div>
@@ -604,12 +624,12 @@ babgbag
                         <span class="chip bg-color">leetcode</span>
                     </a>
                     
-                    <a href="/tags/算法/" target="_blank">
-                        <span class="chip bg-color">算法</span>
-                    </a>
-                    
                     <a href="/tags/Java/" target="_blank">
                         <span class="chip bg-color">Java</span>
+                    </a>
+                    
+                    <a href="/tags/算法/" target="_blank">
+                        <span class="chip bg-color">算法</span>
                     </a>
                     
                 </div>
@@ -772,7 +792,7 @@ babgbag
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">45.1k</span>
+            <span class="white-color">63.3k</span>
             
 
             <br>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lcxq.github.io/"/>
-  <updated>2020-04-08T10:14:02.869Z</updated>
+  <updated>2020-07-11T08:41:36.089Z</updated>
   <id>http://lcxq.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>leetcode No.126 单词接龙Ⅱ</title>
-    <link href="http://lcxq.github.io/2020/04/08/leetcode-no-126-dan-ci-jie-long-ii/"/>
-    <id>http://lcxq.github.io/2020/04/08/leetcode-no-126-dan-ci-jie-long-ii/</id>
-    <published>2020-04-08T10:08:51.000Z</published>
-    <updated>2020-04-08T10:14:02.869Z</updated>
+    <title>leetcode No.191 位 1 的个数</title>
+    <link href="http://lcxq.github.io/2020/07/11/leetcode-no-191-wei-1-de-ge-shu/"/>
+    <id>http://lcxq.github.io/2020/07/11/leetcode-no-191-wei-1-de-ge-shu/</id>
+    <published>2020-07-11T08:30:19.000Z</published>
+    <updated>2020-07-11T08:41:36.089Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,7 @@
       
         
         
-          &lt;h2 id=&quot;单词接龙Ⅱ&quot;&gt;&lt;a href=&quot;#单词接龙Ⅱ&quot; class=&quot;headerlink&quot; title=&quot;单词接龙Ⅱ&quot;&gt;&lt;/a&gt;单词接龙Ⅱ&lt;/h2&gt;&lt;p&gt;给定两个单词（beginWord 和 endWord）和一个字典 wordList，找出所有从 beginWord
+          &lt;h2 id=&quot;位-1-的个数&quot;&gt;&lt;a href=&quot;#位-1-的个数&quot; class=&quot;headerlink&quot; title=&quot;位 1 的个数&quot;&gt;&lt;/a&gt;位 1 的个数&lt;/h2&gt;&lt;p&gt;编写一个函数，输入是一个无符号整数，返回其二进制表达式中数字位数为 ‘1’
         
       
     
@@ -40,18 +40,18 @@
     
       <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
     
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
       <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
-    <title>leetcode No.125 验证回文串</title>
-    <link href="http://lcxq.github.io/2020/04/07/leetcode-no-125-yan-zheng-hui-wen-chuan/"/>
-    <id>http://lcxq.github.io/2020/04/07/leetcode-no-125-yan-zheng-hui-wen-chuan/</id>
-    <published>2020-04-07T12:21:47.000Z</published>
-    <updated>2020-04-07T12:22:29.218Z</updated>
+    <title>leetcode No.190 颠倒二进制位</title>
+    <link href="http://lcxq.github.io/2020/07/11/leetcode-no-190-dian-dao-er-jin-zhi-wei/"/>
+    <id>http://lcxq.github.io/2020/07/11/leetcode-no-190-dian-dao-er-jin-zhi-wei/</id>
+    <published>2020-07-11T08:19:33.000Z</published>
+    <updated>2020-07-11T08:25:25.398Z</updated>
     
     <summary type="html">
     
@@ -59,7 +59,8 @@
       
         
         
-          &lt;h2 id=&quot;验证回文串&quot;&gt;&lt;a href=&quot;#验证回文串&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;颠倒二进制位&quot;&gt;&lt;a href=&quot;#颠倒二进制位&quot; class=&quot;headerlink&quot; title=&quot;颠倒二进制位&quot;&gt;&lt;/a&gt;颠倒二进制位&lt;/h2&gt;&lt;p&gt;颠倒给定的 32 位无符号整数的二进制位。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;示例
         
       
     
@@ -70,18 +71,18 @@
     
       <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
     
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
       <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
-    <title>leetcode No.124 二叉树中的最大路径和</title>
-    <link href="http://lcxq.github.io/2020/04/07/leetcode-no-124-er-cha-shu-zhong-de-zui-da-lu-jing-he/"/>
-    <id>http://lcxq.github.io/2020/04/07/leetcode-no-124-er-cha-shu-zhong-de-zui-da-lu-jing-he/</id>
-    <published>2020-04-07T11:37:34.000Z</published>
-    <updated>2020-04-07T11:40:43.257Z</updated>
+    <title>leetcode No.189 旋转数组</title>
+    <link href="http://lcxq.github.io/2020/07/11/leetcode-no-189-xuan-zhuan-shu-zu/"/>
+    <id>http://lcxq.github.io/2020/07/11/leetcode-no-189-xuan-zhuan-shu-zu/</id>
+    <published>2020-07-11T06:04:24.000Z</published>
+    <updated>2020-07-11T06:06:23.623Z</updated>
     
     <summary type="html">
     
@@ -89,7 +90,8 @@
       
         
         
-          &lt;h2 id=&quot;二叉树中的最大路径和&quot;&gt;&lt;a href=&quot;#二叉树中的最大路径和&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;旋转数组&quot;&gt;&lt;a href=&quot;#旋转数组&quot; class=&quot;headerlink&quot; title=&quot;旋转数组&quot;&gt;&lt;/a&gt;旋转数组&lt;/h2&gt;&lt;p&gt;给定一个数组，将数组中的元素向右移动 k 个位置，其中 k 是非负数。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;示例
         
       
     
@@ -100,18 +102,18 @@
     
       <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
     
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
       <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
-    <title>leetcode No.123 买卖股票的最佳时机Ⅲ</title>
-    <link href="http://lcxq.github.io/2020/04/06/leetcode-no-123-mai-mai-gu-piao-de-zui-jia-shi-ji-iii/"/>
-    <id>http://lcxq.github.io/2020/04/06/leetcode-no-123-mai-mai-gu-piao-de-zui-jia-shi-ji-iii/</id>
-    <published>2020-04-06T14:09:45.000Z</published>
-    <updated>2020-04-06T18:17:51.607Z</updated>
+    <title>leetcode No.188 买卖股票的最佳时机Ⅳ</title>
+    <link href="http://lcxq.github.io/2020/07/11/leetcode-no-188-mai-mai-gu-piao-de-zui-jia-shi-ji-iv/"/>
+    <id>http://lcxq.github.io/2020/07/11/leetcode-no-188-mai-mai-gu-piao-de-zui-jia-shi-ji-iv/</id>
+    <published>2020-07-11T05:45:25.000Z</published>
+    <updated>2020-07-11T05:53:50.762Z</updated>
     
     <summary type="html">
     
@@ -119,7 +121,7 @@
       
         
         
-          &lt;h2 id=&quot;买卖股票的最佳时机Ⅲ&quot;&gt;&lt;a href=&quot;#买卖股票的最佳时机Ⅲ&quot; class=&quot;headerlink&quot; title=&quot;买卖股票的最佳时机Ⅲ&quot;&gt;&lt;/a&gt;买卖股票的最佳时机Ⅲ&lt;/h2&gt;&lt;p&gt;给定一个数组，它的第 i 个元素是一支给定的股票在第 i
+          &lt;h2 id=&quot;买卖股票的最佳时机Ⅳ&quot;&gt;&lt;a href=&quot;#买卖股票的最佳时机Ⅳ&quot; class=&quot;headerlink&quot; title=&quot;买卖股票的最佳时机Ⅳ&quot;&gt;&lt;/a&gt;买卖股票的最佳时机Ⅳ&lt;/h2&gt;&lt;p&gt;给定一个数组，它的第 i 个元素是一支给定的股票在第 i
         
       
     
@@ -130,18 +132,18 @@
     
       <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
     
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
       <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
-    <title>leetcode No.122 买卖股票的最佳时机II</title>
-    <link href="http://lcxq.github.io/2020/04/06/leetcode-no-122-mai-mai-gu-piao-de-zui-jia-shi-ji-ii/"/>
-    <id>http://lcxq.github.io/2020/04/06/leetcode-no-122-mai-mai-gu-piao-de-zui-jia-shi-ji-ii/</id>
-    <published>2020-04-06T07:56:58.000Z</published>
-    <updated>2020-04-06T08:02:17.026Z</updated>
+    <title>leetcode No.187 重复的dna序列</title>
+    <link href="http://lcxq.github.io/2020/07/09/leetcode-no-187-chong-fu-de-dna-xu-lie/"/>
+    <id>http://lcxq.github.io/2020/07/09/leetcode-no-187-chong-fu-de-dna-xu-lie/</id>
+    <published>2020-07-08T19:32:18.000Z</published>
+    <updated>2020-07-09T09:50:18.967Z</updated>
     
     <summary type="html">
     
@@ -149,7 +151,7 @@
       
         
         
-          &lt;h2 id=&quot;买卖股票的最佳时机II&quot;&gt;&lt;a href=&quot;#买卖股票的最佳时机II&quot; class=&quot;headerlink&quot; title=&quot;买卖股票的最佳时机II&quot;&gt;&lt;/a&gt;买卖股票的最佳时机II&lt;/h2&gt;&lt;p&gt;给定一个数组，它的第 i 个元素是一支给定股票第 i
+          &lt;h2 id=&quot;重复的dna序列&quot;&gt;&lt;a href=&quot;#重复的dna序列&quot; class=&quot;headerlink&quot; title=&quot;重复的dna序列&quot;&gt;&lt;/a&gt;重复的dna序列&lt;/h2&gt;&lt;p&gt;所有 DNA 都由一系列缩写为 A，C，G 和 T
         
       
     
@@ -160,18 +162,18 @@
     
       <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
     
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
       <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
-    <title>leetcode No.121 买卖股票的最佳时机</title>
-    <link href="http://lcxq.github.io/2020/04/03/leetcode-no-121-mai-mai-gu-piao-de-zui-jia-shi-ji/"/>
-    <id>http://lcxq.github.io/2020/04/03/leetcode-no-121-mai-mai-gu-piao-de-zui-jia-shi-ji/</id>
-    <published>2020-04-03T10:23:46.000Z</published>
-    <updated>2020-04-03T11:59:08.087Z</updated>
+    <title>leetcode No.179 最大数</title>
+    <link href="http://lcxq.github.io/2020/07/09/leetcode-no-179-zui-da-shu/"/>
+    <id>http://lcxq.github.io/2020/07/09/leetcode-no-179-zui-da-shu/</id>
+    <published>2020-07-08T17:47:37.000Z</published>
+    <updated>2020-07-08T17:56:01.764Z</updated>
     
     <summary type="html">
     
@@ -179,7 +181,8 @@
       
         
         
-          &lt;h2 id=&quot;买卖股票的最佳时机&quot;&gt;&lt;a href=&quot;#买卖股票的最佳时机&quot; class=&quot;headerlink&quot; title=&quot;买卖股票的最佳时机&quot;&gt;&lt;/a&gt;买卖股票的最佳时机&lt;/h2&gt;&lt;p&gt;给定一个数组，它的第 i 个元素是一支给定股票第 i
+          &lt;h2 id=&quot;最大数&quot;&gt;&lt;a href=&quot;#最大数&quot; class=&quot;headerlink&quot; title=&quot;最大数&quot;&gt;&lt;/a&gt;最大数&lt;/h2&gt;&lt;p&gt;给定一组非负整数，重新排列它们的顺序使之组成一个最大的整数。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;示例
         
       
     
@@ -190,18 +193,18 @@
     
       <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
     
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
       <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
-    <title>leetcode No.120 三角形最小路径和</title>
-    <link href="http://lcxq.github.io/2020/04/03/leetcode-no-120-san-jiao-xing-zui-xiao-lu-jing-he/"/>
-    <id>http://lcxq.github.io/2020/04/03/leetcode-no-120-san-jiao-xing-zui-xiao-lu-jing-he/</id>
-    <published>2020-04-03T06:58:17.000Z</published>
-    <updated>2020-04-03T08:35:21.056Z</updated>
+    <title>leetcode No.174 地下城游戏</title>
+    <link href="http://lcxq.github.io/2020/07/08/leetcode-no-174-di-xia-cheng-you-xi/"/>
+    <id>http://lcxq.github.io/2020/07/08/leetcode-no-174-di-xia-cheng-you-xi/</id>
+    <published>2020-07-08T14:56:00.000Z</published>
+    <updated>2020-07-08T15:03:17.587Z</updated>
     
     <summary type="html">
     
@@ -209,7 +212,7 @@
       
         
         
-          &lt;h2 id=&quot;三角形最小路径和&quot;&gt;&lt;a href=&quot;#三角形最小路径和&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;地下城游戏&quot;&gt;&lt;a href=&quot;#地下城游戏&quot; class=&quot;headerlink&quot; title=&quot;地下城游戏&quot;&gt;&lt;/a&gt;地下城游戏&lt;/h2&gt;&lt;p&gt;一些恶魔抓住了公主（P）并将她关在了地下城的右下角。地下城是由 M x N
         
       
     
@@ -220,18 +223,18 @@
     
       <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
     
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
       <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
-    <title>leetcode No.119 杨辉三角Ⅱ</title>
-    <link href="http://lcxq.github.io/2020/04/02/leetcode-no-119-yang-hui-san-jiao-ii/"/>
-    <id>http://lcxq.github.io/2020/04/02/leetcode-no-119-yang-hui-san-jiao-ii/</id>
-    <published>2020-04-02T13:31:14.000Z</published>
-    <updated>2020-04-02T13:32:10.675Z</updated>
+    <title>leetcode No.173 二叉搜索树迭代器</title>
+    <link href="http://lcxq.github.io/2020/07/08/leetcode-no-173-er-cha-sou-suo-shu-die-dai-qi/"/>
+    <id>http://lcxq.github.io/2020/07/08/leetcode-no-173-er-cha-sou-suo-shu-die-dai-qi/</id>
+    <published>2020-07-08T08:36:35.000Z</published>
+    <updated>2020-07-08T08:43:53.616Z</updated>
     
     <summary type="html">
     
@@ -239,7 +242,99 @@
       
         
         
-          &lt;h2 id=&quot;杨辉三角Ⅱ&quot;&gt;&lt;a href=&quot;#杨辉三角Ⅱ&quot; class=&quot;headerlink&quot; title=&quot;杨辉三角Ⅱ&quot;&gt;&lt;/a&gt;杨辉三角Ⅱ&lt;/h2&gt;&lt;p&gt;只需要杨辉三角的某一行，不需要整个三角。&lt;/p&gt;
+          &lt;h2 id=&quot;二叉搜索树迭代器&quot;&gt;&lt;a href=&quot;#二叉搜索树迭代器&quot; class=&quot;headerlink&quot; title=&quot;二叉搜索树迭代器&quot;&gt;&lt;/a&gt;二叉搜索树迭代器&lt;/h2&gt;&lt;p&gt;实现一个二叉搜索树迭代器。你将使用二叉搜索树的根节点初始化迭代器。&lt;/p&gt;
+&lt;p&gt;调用
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.172 阶乘后的零</title>
+    <link href="http://lcxq.github.io/2020/07/08/leetcode-no-172-jie-cheng-hou-de-ling/"/>
+    <id>http://lcxq.github.io/2020/07/08/leetcode-no-172-jie-cheng-hou-de-ling/</id>
+    <published>2020-07-08T06:45:50.000Z</published>
+    <updated>2020-07-08T06:52:40.110Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;阶乘后的零&quot;&gt;&lt;a href=&quot;#阶乘后的零&quot; class=&quot;headerlink&quot; title=&quot;阶乘后的零&quot;&gt;&lt;/a&gt;阶乘后的零&lt;/h2&gt;&lt;p&gt;给定一个整数 n，返回 n! 结果尾数中零的数量。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;示例
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.171 excel表列序号</title>
+    <link href="http://lcxq.github.io/2020/07/08/leetcode-no-171-excel-biao-lie-xu-hao/"/>
+    <id>http://lcxq.github.io/2020/07/08/leetcode-no-171-excel-biao-lie-xu-hao/</id>
+    <published>2020-07-08T05:49:04.000Z</published>
+    <updated>2020-07-08T05:53:29.527Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;excel表列序号&quot;&gt;&lt;a href=&quot;#excel表列序号&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.415 字符串相加</title>
+    <link href="http://lcxq.github.io/2020/07/07/leetcode-no-415-zi-fu-chuan-xiang-jia/"/>
+    <id>http://lcxq.github.io/2020/07/07/leetcode-no-415-zi-fu-chuan-xiang-jia/</id>
+    <published>2020-07-07T15:19:19.000Z</published>
+    <updated>2020-07-07T15:20:06.164Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;字符串相加&quot;&gt;&lt;a href=&quot;#字符串相加&quot; class=&quot;headerlink&quot; title=&quot;字符串相加&quot;&gt;&lt;/a&gt;字符串相加&lt;/h2&gt;&lt;p&gt;和No.2两数相加思路一模一样，只是由链表换成了字符串而已。&lt;/p&gt;
 &lt;pre class=&quot;
         
       
@@ -251,18 +346,18 @@
     
       <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
     
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
       <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
-    <title>leetcode No.118 杨辉三角</title>
-    <link href="http://lcxq.github.io/2020/04/02/leetcode-no-118-yang-hui-san-jiao/"/>
-    <id>http://lcxq.github.io/2020/04/02/leetcode-no-118-yang-hui-san-jiao/</id>
-    <published>2020-04-02T12:25:16.000Z</published>
-    <updated>2020-04-02T12:43:09.679Z</updated>
+    <title>leetcode No.169 多数元素</title>
+    <link href="http://lcxq.github.io/2020/07/07/leetcode-no-169-duo-shu-yuan-su/"/>
+    <id>http://lcxq.github.io/2020/07/07/leetcode-no-169-duo-shu-yuan-su/</id>
+    <published>2020-07-07T12:02:16.000Z</published>
+    <updated>2020-07-07T12:04:18.139Z</updated>
     
     <summary type="html">
     
@@ -270,8 +365,7 @@
       
         
         
-          &lt;h2 id=&quot;杨辉三角&quot;&gt;&lt;a href=&quot;#杨辉三角&quot; class=&quot;headerlink&quot; title=&quot;杨辉三角&quot;&gt;&lt;/a&gt;杨辉三角&lt;/h2&gt;&lt;p&gt;基础的杨辉三角题，直接放代码。&lt;/p&gt;
-&lt;pre class=&quot; language-java&quot;&gt;&lt;code
+          &lt;h2 id=&quot;多数元素&quot;&gt;&lt;a href=&quot;#多数元素&quot; class=&quot;headerlink&quot; title=&quot;多数元素&quot;&gt;&lt;/a&gt;多数元素&lt;/h2&gt;&lt;p&gt;给定一个大小为 n 的数组，找到其中的多数元素。多数元素是指在数组中出现次数大于 ⌊ n/2 ⌋
         
       
     
@@ -282,18 +376,18 @@
     
       <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
     
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
       <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
-    <title>leetcode No.117 填充每个节点的下一个右侧节点指针Ⅱ</title>
-    <link href="http://lcxq.github.io/2020/04/02/leetcode-no-117-tian-chong-mei-ge-jie-dian-de-xia-yi-ge-you-ce-jie-dian-zhi-zhen-ii/"/>
-    <id>http://lcxq.github.io/2020/04/02/leetcode-no-117-tian-chong-mei-ge-jie-dian-de-xia-yi-ge-you-ce-jie-dian-zhi-zhen-ii/</id>
-    <published>2020-04-02T12:23:34.000Z</published>
-    <updated>2020-04-02T12:24:54.772Z</updated>
+    <title>leetcode No.168 excel表列名称</title>
+    <link href="http://lcxq.github.io/2020/07/07/leetcode-no-168-excel-biao-lie-ming-cheng/"/>
+    <id>http://lcxq.github.io/2020/07/07/leetcode-no-168-excel-biao-lie-ming-cheng/</id>
+    <published>2020-07-07T11:29:31.000Z</published>
+    <updated>2020-07-07T11:31:57.424Z</updated>
     
     <summary type="html">
     
@@ -301,7 +395,7 @@
       
         
         
-          &lt;h2 id=&quot;填充每个节点的下一个右侧节点&quot;&gt;&lt;a href=&quot;#填充每个节点的下一个右侧节点&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;excel表列名称&quot;&gt;&lt;a href=&quot;#excel表列名称&quot; class=&quot;headerlink&quot; title=&quot;excel表列名称&quot;&gt;&lt;/a&gt;excel表列名称&lt;/h2&gt;&lt;p&gt;给定一个正整数，返回它在 Excel
         
       
     
@@ -312,18 +406,18 @@
     
       <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
     
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
       <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
-    <title>leetcode No.116 填充每个节点的下一个右侧节点指针</title>
-    <link href="http://lcxq.github.io/2020/04/02/leetcode-no-116-tian-chong-mei-ge-jie-dian-de-xia-yi-ge-you-ce-jie-dian-zhi-zhen/"/>
-    <id>http://lcxq.github.io/2020/04/02/leetcode-no-116-tian-chong-mei-ge-jie-dian-de-xia-yi-ge-you-ce-jie-dian-zhi-zhen/</id>
-    <published>2020-04-02T08:37:06.000Z</published>
-    <updated>2020-04-02T08:42:32.151Z</updated>
+    <title>leetcode No.167 两数之和II-输入有序数组</title>
+    <link href="http://lcxq.github.io/2020/07/07/leetcode-no-167-liang-shu-zhi-he-ii-shu-ru-you-xu-shu-zu/"/>
+    <id>http://lcxq.github.io/2020/07/07/leetcode-no-167-liang-shu-zhi-he-ii-shu-ru-you-xu-shu-zu/</id>
+    <published>2020-07-07T10:24:23.000Z</published>
+    <updated>2020-07-07T10:26:26.602Z</updated>
     
     <summary type="html">
     
@@ -331,7 +425,7 @@
       
         
         
-          &lt;h2 id=&quot;填充每个节点的下一个右侧节点指针&quot;&gt;&lt;a href=&quot;#填充每个节点的下一个右侧节点指针&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;两数之和II-输入有序数组&quot;&gt;&lt;a href=&quot;#两数之和II-输入有序数组&quot; class=&quot;headerlink&quot;
         
       
     
@@ -342,18 +436,18 @@
     
       <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
     
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
       <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
-    <title>leetcode No.115 不同的子序列</title>
-    <link href="http://lcxq.github.io/2020/04/02/leetcode-no-115-bu-tong-de-zi-xu-lie/"/>
-    <id>http://lcxq.github.io/2020/04/02/leetcode-no-115-bu-tong-de-zi-xu-lie/</id>
-    <published>2020-04-01T18:07:34.000Z</published>
-    <updated>2020-04-01T18:23:52.372Z</updated>
+    <title>leetcode No.166 分数到小数</title>
+    <link href="http://lcxq.github.io/2020/07/07/leetcode-no-166-fen-shu-dao-xiao-shu/"/>
+    <id>http://lcxq.github.io/2020/07/07/leetcode-no-166-fen-shu-dao-xiao-shu/</id>
+    <published>2020-07-07T08:58:07.000Z</published>
+    <updated>2020-07-07T09:00:57.300Z</updated>
     
     <summary type="html">
     
@@ -361,7 +455,7 @@
       
         
         
-          &lt;h2 id=&quot;不同的子序列&quot;&gt;&lt;a href=&quot;#不同的子序列&quot; class=&quot;headerlink&quot; title=&quot;不同的子序列&quot;&gt;&lt;/a&gt;不同的子序列&lt;/h2&gt;&lt;p&gt;给定一个字符串 S 和一个字符串 T，计算在 S 的子序列中 T
+          &lt;h2 id=&quot;分数到小数&quot;&gt;&lt;a href=&quot;#分数到小数&quot; class=&quot;headerlink&quot; title=&quot;分数到小数&quot;&gt;&lt;/a&gt;分数到小数&lt;/h2&gt;&lt;p&gt;给定两个整数，分别表示分数的分子 numerator 和分母
         
       
     
@@ -372,18 +466,18 @@
     
       <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
     
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
       <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
-    <title>leetcode No.113 路径总和Ⅱ</title>
-    <link href="http://lcxq.github.io/2020/03/23/leetcode-no-113-lu-jing-zong-he-ii/"/>
-    <id>http://lcxq.github.io/2020/03/23/leetcode-no-113-lu-jing-zong-he-ii/</id>
-    <published>2020-03-23T14:12:41.000Z</published>
-    <updated>2020-03-23T14:14:38.462Z</updated>
+    <title>leetcode No.165 比较版本号</title>
+    <link href="http://lcxq.github.io/2020/07/07/leetcode-no-165-bi-jiao-ban-ben-hao/"/>
+    <id>http://lcxq.github.io/2020/07/07/leetcode-no-165-bi-jiao-ban-ben-hao/</id>
+    <published>2020-07-07T07:32:14.000Z</published>
+    <updated>2020-07-07T08:02:08.598Z</updated>
     
     <summary type="html">
     
@@ -391,7 +485,7 @@
       
         
         
-          &lt;h2 id=&quot;路径总和Ⅱ&quot;&gt;&lt;a href=&quot;#路径总和Ⅱ&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;比较版本号&quot;&gt;&lt;a href=&quot;#比较版本号&quot; class=&quot;headerlink&quot; title=&quot;比较版本号&quot;&gt;&lt;/a&gt;比较版本号&lt;/h2&gt;&lt;p&gt;比较两个版本号 version1 和 version2。&lt;br&gt;如果 version1 &amp;gt; version2
         
       
     
@@ -402,18 +496,18 @@
     
       <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
     
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
       <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
-    <title>leetcode No.112 路径总和</title>
-    <link href="http://lcxq.github.io/2020/03/23/leetcode-no-112-lu-jing-zong-he/"/>
-    <id>http://lcxq.github.io/2020/03/23/leetcode-no-112-lu-jing-zong-he/</id>
-    <published>2020-03-23T13:47:21.000Z</published>
-    <updated>2020-03-23T13:48:50.295Z</updated>
+    <title>leetcode No.164 最大间距</title>
+    <link href="http://lcxq.github.io/2020/07/07/leetcode-no-164-zui-da-jian-ju/"/>
+    <id>http://lcxq.github.io/2020/07/07/leetcode-no-164-zui-da-jian-ju/</id>
+    <published>2020-07-07T06:32:27.000Z</published>
+    <updated>2020-07-07T06:48:50.308Z</updated>
     
     <summary type="html">
     
@@ -421,7 +515,8 @@
       
         
         
-          &lt;h2 id=&quot;路径总和&quot;&gt;&lt;a href=&quot;#路径总和&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;最大间距&quot;&gt;&lt;a href=&quot;#最大间距&quot; class=&quot;headerlink&quot; title=&quot;最大间距&quot;&gt;&lt;/a&gt;最大间距&lt;/h2&gt;&lt;p&gt;给定一个无序的数组，找出数组在排序之后，相邻元素之间最大的差值。&lt;/p&gt;
+&lt;p&gt;如果数组元素个数小于 2，则返回
         
       
     
@@ -432,18 +527,18 @@
     
       <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
     
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
       <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
-    <title>leetcode No.111 二叉树的最小深度</title>
-    <link href="http://lcxq.github.io/2020/03/23/leetcode-no-111-er-cha-shu-de-zui-xiao-shen-du/"/>
-    <id>http://lcxq.github.io/2020/03/23/leetcode-no-111-er-cha-shu-de-zui-xiao-shen-du/</id>
-    <published>2020-03-23T10:02:05.000Z</published>
-    <updated>2020-03-23T12:41:51.423Z</updated>
+    <title>leetcode No.162 寻找峰值</title>
+    <link href="http://lcxq.github.io/2020/07/07/leetcode-no-162-xun-zhao-feng-zhi/"/>
+    <id>http://lcxq.github.io/2020/07/07/leetcode-no-162-xun-zhao-feng-zhi/</id>
+    <published>2020-07-06T17:59:11.000Z</published>
+    <updated>2020-07-06T18:28:25.156Z</updated>
     
     <summary type="html">
     
@@ -451,7 +546,8 @@
       
         
         
-          &lt;h2 id=&quot;二叉树的最小深度&quot;&gt;&lt;a href=&quot;#二叉树的最小深度&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;寻找峰值&quot;&gt;&lt;a href=&quot;#寻找峰值&quot; class=&quot;headerlink&quot; title=&quot;寻找峰值&quot;&gt;&lt;/a&gt;寻找峰值&lt;/h2&gt;&lt;p&gt;峰值元素是指其值大于左右相邻值的元素。&lt;/p&gt;
+&lt;p&gt;给定一个输入数组 nums，其中 nums[i] ≠
         
       
     
@@ -462,18 +558,18 @@
     
       <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
     
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
       <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
-    <title>leetcode No.110 平衡二叉树</title>
-    <link href="http://lcxq.github.io/2020/03/23/leetcode-no-110-ping-heng-er-cha-shu/"/>
-    <id>http://lcxq.github.io/2020/03/23/leetcode-no-110-ping-heng-er-cha-shu/</id>
-    <published>2020-03-23T09:19:25.000Z</published>
-    <updated>2020-03-23T09:30:45.343Z</updated>
+    <title>leetcode No.160 相交链表</title>
+    <link href="http://lcxq.github.io/2020/07/02/leetcode-no-160-xiang-jiao-lian-biao/"/>
+    <id>http://lcxq.github.io/2020/07/02/leetcode-no-160-xiang-jiao-lian-biao/</id>
+    <published>2020-07-01T16:41:03.000Z</published>
+    <updated>2020-07-01T16:46:54.845Z</updated>
     
     <summary type="html">
     
@@ -481,7 +577,7 @@
       
         
         
-          &lt;h2 id=&quot;平衡二叉树&quot;&gt;&lt;a href=&quot;#平衡二叉树&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;相交链表&quot;&gt;&lt;a href=&quot;#相交链表&quot; class=&quot;headerlink&quot; title=&quot;相交链表&quot;&gt;&lt;/a&gt;相交链表&lt;/h2&gt;&lt;p&gt;题目描述太多普遍懒得贴了，地址(&lt;a
         
       
     
@@ -492,18 +588,18 @@
     
       <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
     
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
       <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
-    <title>leetcode No.109 有序链表转换二叉搜索树</title>
-    <link href="http://lcxq.github.io/2020/03/23/leetcode-no-109-you-xu-lian-biao-zhuan-huan-er-cha-sou-suo-shu/"/>
-    <id>http://lcxq.github.io/2020/03/23/leetcode-no-109-you-xu-lian-biao-zhuan-huan-er-cha-sou-suo-shu/</id>
-    <published>2020-03-23T08:15:07.000Z</published>
-    <updated>2020-03-23T08:17:23.954Z</updated>
+    <title>leetcode No.155 最小栈</title>
+    <link href="http://lcxq.github.io/2020/07/01/leetcode-no-155-zui-xiao-zhan/"/>
+    <id>http://lcxq.github.io/2020/07/01/leetcode-no-155-zui-xiao-zhan/</id>
+    <published>2020-07-01T15:32:03.000Z</published>
+    <updated>2020-07-01T15:54:30.935Z</updated>
     
     <summary type="html">
     
@@ -511,7 +607,9 @@
       
         
         
-          &lt;h2 id=&quot;有序链表转换二叉搜索树&quot;&gt;&lt;a href=&quot;#有序链表转换二叉搜索树&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;最小栈&quot;&gt;&lt;a href=&quot;#最小栈&quot; class=&quot;headerlink&quot; title=&quot;最小栈&quot;&gt;&lt;/a&gt;最小栈&lt;/h2&gt;&lt;p&gt;设计一个支持 push ，pop ，top 操作，并能在常数时间内检索到最小元素的栈。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;push(x)
         
       
     
@@ -522,99 +620,9 @@
     
       <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
     
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
       <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
     
-  </entry>
-  
-  <entry>
-    <title>leetcode No.108 将有序数组转换为二叉搜索树</title>
-    <link href="http://lcxq.github.io/2020/03/23/leetcode-no-108-jiang-you-xu-shu-zu-zhuan-huan-wei-er-cha-sou-suo-shu/"/>
-    <id>http://lcxq.github.io/2020/03/23/leetcode-no-108-jiang-you-xu-shu-zu-zhuan-huan-wei-er-cha-sou-suo-shu/</id>
-    <published>2020-03-22T19:09:47.000Z</published>
-    <updated>2020-03-22T19:11:48.125Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;将有序数组转换为二叉搜索树&quot;&gt;&lt;a href=&quot;#将有序数组转换为二叉搜索树&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
       <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.107 二叉树的层次遍历Ⅱ</title>
-    <link href="http://lcxq.github.io/2020/03/23/leetcode-no-107-er-cha-shu-de-ceng-ci-bian-li-ii/"/>
-    <id>http://lcxq.github.io/2020/03/23/leetcode-no-107-er-cha-shu-de-ceng-ci-bian-li-ii/</id>
-    <published>2020-03-22T17:19:38.000Z</published>
-    <updated>2020-03-22T17:21:08.803Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;二叉树的层次遍历Ⅱ&quot;&gt;&lt;a href=&quot;#二叉树的层次遍历Ⅱ&quot; class=&quot;headerlink&quot; title=&quot;二叉树的层次遍历Ⅱ&quot;&gt;&lt;/a&gt;二叉树的层次遍历Ⅱ&lt;/h2&gt;&lt;p&gt;给定一个二叉树，返回其节点值自底向上的层次遍历。
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.106 从中序与后序遍历序列构造二叉树</title>
-    <link href="http://lcxq.github.io/2020/03/23/leetcode-no-106-cong-zhong-xu-yu-hou-xu-bian-li-xu-lie-gou-zao-er-cha-shu/"/>
-    <id>http://lcxq.github.io/2020/03/23/leetcode-no-106-cong-zhong-xu-yu-hou-xu-bian-li-xu-lie-gou-zao-er-cha-shu/</id>
-    <published>2020-03-22T17:02:44.000Z</published>
-    <updated>2020-03-22T17:05:07.431Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;从中序与后序遍历序列构造二叉树&quot;&gt;&lt;a href=&quot;#从中序与后序遍历序列构造二叉树&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
     
   </entry>
   

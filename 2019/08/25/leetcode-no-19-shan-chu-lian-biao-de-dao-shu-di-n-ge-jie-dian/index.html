@@ -300,12 +300,12 @@
                                 <span class="chip bg-color">leetcode</span>
                             </a>
                         
-                            <a href="/tags/算法/" target="_blank">
-                                <span class="chip bg-color">算法</span>
-                            </a>
-                        
                             <a href="/tags/Java/" target="_blank">
                                 <span class="chip bg-color">Java</span>
+                            </a>
+                        
+                            <a href="/tags/算法/" target="_blank">
+                                <span class="chip bg-color">算法</span>
                             </a>
                         
                     </div>
@@ -342,7 +342,7 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        207
+                        202
                     </div>
                     
 
@@ -372,23 +372,19 @@
 <h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><p>链表倒数某个节点的题基本都是快慢指针做，删除节点的话标记一下前一个节点就行。</p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
     <span class="token keyword">public</span> ListNode <span class="token function">removeNthFromEnd</span><span class="token punctuation">(</span>ListNode head<span class="token punctuation">,</span> <span class="token keyword">int</span> n<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        ListNode p1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        ListNode p2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        p2 <span class="token operator">=</span> head<span class="token punctuation">;</span>
-        p1<span class="token punctuation">.</span>next <span class="token operator">=</span> head<span class="token punctuation">;</span>
+        ListNode dummy <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        dummy<span class="token punctuation">.</span>next <span class="token operator">=</span> head<span class="token punctuation">;</span>
+        ListNode first <span class="token operator">=</span> head<span class="token punctuation">,</span> slow <span class="token operator">=</span> head<span class="token punctuation">,</span> pre <span class="token operator">=</span> dummy<span class="token punctuation">;</span>
         <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            p2 <span class="token operator">=</span> p2<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+            first <span class="token operator">=</span> first<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
         <span class="token punctuation">}</span>
-        <span class="token keyword">while</span><span class="token punctuation">(</span>p2 <span class="token operator">!=</span> null<span class="token punctuation">)</span><span class="token punctuation">{</span>
-            p1 <span class="token operator">=</span> p1<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
-            p2 <span class="token operator">=</span> p2<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+        <span class="token keyword">while</span> <span class="token punctuation">(</span>first <span class="token operator">!=</span> null<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            pre <span class="token operator">=</span> pre<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+            slow <span class="token operator">=</span> slow<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+            first <span class="token operator">=</span> first<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
         <span class="token punctuation">}</span>
-        <span class="token keyword">if</span><span class="token punctuation">(</span>p1<span class="token punctuation">.</span>next <span class="token operator">==</span> head<span class="token punctuation">)</span><span class="token punctuation">{</span>
-            <span class="token keyword">return</span> head<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
-        <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
-            p1<span class="token punctuation">.</span>next <span class="token operator">=</span> p1<span class="token punctuation">.</span>next<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
-            <span class="token keyword">return</span> head<span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
+        pre<span class="token punctuation">.</span>next <span class="token operator">=</span> slow<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+        <span class="token keyword">return</span> dummy<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre>
 <p><strong>时间复杂度：</strong> $$O(n)$$</p>
@@ -514,12 +510,12 @@
                         <span class="chip bg-color">leetcode</span>
                     </a>
                     
-                    <a href="/tags/算法/" target="_blank">
-                        <span class="chip bg-color">算法</span>
-                    </a>
-                    
                     <a href="/tags/Java/" target="_blank">
                         <span class="chip bg-color">Java</span>
+                    </a>
+                    
+                    <a href="/tags/算法/" target="_blank">
+                        <span class="chip bg-color">算法</span>
                     </a>
                     
                 </div>
@@ -572,12 +568,12 @@
                         <span class="chip bg-color">leetcode</span>
                     </a>
                     
-                    <a href="/tags/算法/" target="_blank">
-                        <span class="chip bg-color">算法</span>
-                    </a>
-                    
                     <a href="/tags/Java/" target="_blank">
                         <span class="chip bg-color">Java</span>
+                    </a>
+                    
+                    <a href="/tags/算法/" target="_blank">
+                        <span class="chip bg-color">算法</span>
                     </a>
                     
                 </div>
@@ -740,7 +736,7 @@
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">45.1k</span>
+            <span class="white-color">63.3k</span>
             
 
             <br>

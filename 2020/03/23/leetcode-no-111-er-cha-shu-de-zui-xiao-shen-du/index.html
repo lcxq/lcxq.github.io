@@ -300,12 +300,12 @@
                                 <span class="chip bg-color">leetcode</span>
                             </a>
                         
-                            <a href="/tags/算法/" target="_blank">
-                                <span class="chip bg-color">算法</span>
-                            </a>
-                        
                             <a href="/tags/Java/" target="_blank">
                                 <span class="chip bg-color">Java</span>
+                            </a>
+                        
+                            <a href="/tags/算法/" target="_blank">
+                                <span class="chip bg-color">算法</span>
                             </a>
                         
                     </div>
@@ -342,14 +342,14 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        310
+                        436
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        1 分
+                        2 分
                     </div>
                     
                 
@@ -409,6 +409,36 @@
             level <span class="token operator">++</span><span class="token punctuation">;</span>
         <span class="token punctuation">}</span>
         <span class="token keyword">return</span> level<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre>
+<h2 id="方法三"><a href="#方法三" class="headerlink" title="方法三"></a>方法三</h2><p>非递归DFS，用一个变量维护深度即可，但需要遍历完所有的节点才能出结果，时间复杂度上不如BFS。</p>
+<pre class=" language-java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">minDepth</span><span class="token punctuation">(</span>TreeNode root<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>root <span class="token operator">==</span> null<span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> min <span class="token operator">=</span> Integer<span class="token punctuation">.</span>MAX_VALUE<span class="token punctuation">;</span>
+        <span class="token keyword">int</span> tempDepth <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        Stack<span class="token operator">&lt;</span>TreeNode<span class="token operator">></span> st <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Stack</span><span class="token operator">&lt;</span><span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        TreeNode cur <span class="token operator">=</span> root<span class="token punctuation">,</span> pre <span class="token operator">=</span> null<span class="token punctuation">;</span>
+        <span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token operator">!</span>st<span class="token punctuation">.</span><span class="token function">isEmpty</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">||</span> cur <span class="token operator">!=</span> null<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">while</span> <span class="token punctuation">(</span>cur <span class="token operator">!=</span> null<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                st<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>cur<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                tempDepth<span class="token operator">++</span><span class="token punctuation">;</span>
+                cur <span class="token operator">=</span> cur<span class="token punctuation">.</span>left<span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+            cur <span class="token operator">=</span> st<span class="token punctuation">.</span><span class="token function">peek</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>cur<span class="token punctuation">.</span>left <span class="token operator">==</span> null <span class="token operator">&amp;&amp;</span> cur<span class="token punctuation">.</span>right <span class="token operator">==</span> null<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                min <span class="token operator">=</span> Math<span class="token punctuation">.</span><span class="token function">min</span><span class="token punctuation">(</span>min<span class="token punctuation">,</span> tempDepth<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>cur<span class="token punctuation">.</span>right <span class="token operator">==</span> null <span class="token operator">||</span> cur<span class="token punctuation">.</span>right <span class="token operator">==</span> pre<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                st<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                tempDepth<span class="token operator">--</span><span class="token punctuation">;</span>
+                pre <span class="token operator">=</span> cur<span class="token punctuation">;</span>
+                cur <span class="token operator">=</span> null<span class="token punctuation">;</span>
+            <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+                cur <span class="token operator">=</span> cur<span class="token punctuation">.</span>right<span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> min<span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre>
 
@@ -533,12 +563,12 @@
                         <span class="chip bg-color">leetcode</span>
                     </a>
                     
-                    <a href="/tags/算法/" target="_blank">
-                        <span class="chip bg-color">算法</span>
-                    </a>
-                    
                     <a href="/tags/Java/" target="_blank">
                         <span class="chip bg-color">Java</span>
+                    </a>
+                    
+                    <a href="/tags/算法/" target="_blank">
+                        <span class="chip bg-color">算法</span>
                     </a>
                     
                 </div>
@@ -595,12 +625,12 @@
                         <span class="chip bg-color">leetcode</span>
                     </a>
                     
-                    <a href="/tags/算法/" target="_blank">
-                        <span class="chip bg-color">算法</span>
-                    </a>
-                    
                     <a href="/tags/Java/" target="_blank">
                         <span class="chip bg-color">Java</span>
+                    </a>
+                    
+                    <a href="/tags/算法/" target="_blank">
+                        <span class="chip bg-color">算法</span>
                     </a>
                     
                 </div>
@@ -763,7 +793,7 @@
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">45.1k</span>
+            <span class="white-color">63.3k</span>
             
 
             <br>

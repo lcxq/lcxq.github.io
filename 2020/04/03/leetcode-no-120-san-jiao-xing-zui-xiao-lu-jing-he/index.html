@@ -301,12 +301,12 @@
                                 <span class="chip bg-color">leetcode</span>
                             </a>
                         
-                            <a href="/tags/算法/" target="_blank">
-                                <span class="chip bg-color">算法</span>
-                            </a>
-                        
                             <a href="/tags/Java/" target="_blank">
                                 <span class="chip bg-color">Java</span>
+                            </a>
+                        
+                            <a href="/tags/算法/" target="_blank">
+                                <span class="chip bg-color">算法</span>
                             </a>
                         
                     </div>
@@ -343,7 +343,7 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        471
+                        439
                     </div>
                     
 
@@ -401,25 +401,16 @@
 <h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><p>题目有要求O(k)的时间复杂度，k为行数，其实就是用一维数组优化。</p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
     <span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">minimumTotal</span><span class="token punctuation">(</span>List<span class="token operator">&lt;</span>List<span class="token operator">&lt;</span>Integer<span class="token operator">>></span> triangle<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">int</span> rows <span class="token operator">=</span> triangle<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">int</span> cols <span class="token operator">=</span> triangle<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>rows <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> dp <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">int</span><span class="token punctuation">[</span>cols<span class="token punctuation">]</span><span class="token punctuation">;</span>
-        dp<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> triangle<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> row <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> row <span class="token operator">&lt;</span> rows<span class="token punctuation">;</span> row<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            List<span class="token operator">&lt;</span>Integer<span class="token operator">></span> curRow <span class="token operator">=</span> triangle<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>row<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token keyword">int</span> col <span class="token operator">=</span> curRow<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span>
-            dp<span class="token punctuation">[</span>col<span class="token punctuation">]</span> <span class="token operator">=</span> dp<span class="token punctuation">[</span>col <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">+</span> curRow<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>col<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            col<span class="token operator">--</span><span class="token punctuation">;</span>
-            <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token punctuation">;</span> col <span class="token operator">></span> <span class="token number">0</span><span class="token punctuation">;</span> col<span class="token operator">--</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                dp<span class="token punctuation">[</span>col<span class="token punctuation">]</span> <span class="token operator">=</span> Math<span class="token punctuation">.</span><span class="token function">min</span><span class="token punctuation">(</span>dp<span class="token punctuation">[</span>col <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span> dp<span class="token punctuation">[</span>col<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">+</span> curRow<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>col<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> len <span class="token operator">=</span> triangle<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>len <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token keyword">return</span> triangle<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> dp <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">int</span><span class="token punctuation">[</span>len<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> len <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">>=</span> <span class="token number">0</span><span class="token punctuation">;</span> i<span class="token operator">--</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;=</span> i<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">==</span> len <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> dp<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> triangle<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>j<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">else</span> dp<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> Math<span class="token punctuation">.</span><span class="token function">min</span><span class="token punctuation">(</span>dp<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">,</span> dp<span class="token punctuation">[</span>j <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">+</span> triangle<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>j<span class="token punctuation">)</span><span class="token punctuation">;</span>
             <span class="token punctuation">}</span>
-            dp<span class="token punctuation">[</span>col<span class="token punctuation">]</span> <span class="token operator">=</span> dp<span class="token punctuation">[</span>col<span class="token punctuation">]</span> <span class="token operator">+</span> curRow<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>col<span class="token punctuation">)</span><span class="token punctuation">;</span>
         <span class="token punctuation">}</span>
-        <span class="token keyword">int</span> min <span class="token operator">=</span> Integer<span class="token punctuation">.</span>MAX_VALUE<span class="token punctuation">;</span>
-        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> col <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> col <span class="token operator">&lt;</span> cols<span class="token punctuation">;</span> col<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            min <span class="token operator">=</span> Math<span class="token punctuation">.</span><span class="token function">min</span><span class="token punctuation">(</span>min<span class="token punctuation">,</span>dp<span class="token punctuation">[</span>col<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-        <span class="token keyword">return</span> min<span class="token punctuation">;</span>
+        <span class="token keyword">return</span> dp<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre>
 
@@ -544,12 +535,12 @@
                         <span class="chip bg-color">leetcode</span>
                     </a>
                     
-                    <a href="/tags/算法/" target="_blank">
-                        <span class="chip bg-color">算法</span>
-                    </a>
-                    
                     <a href="/tags/Java/" target="_blank">
                         <span class="chip bg-color">Java</span>
+                    </a>
+                    
+                    <a href="/tags/算法/" target="_blank">
+                        <span class="chip bg-color">算法</span>
                     </a>
                     
                 </div>
@@ -604,12 +595,12 @@ class Solution {
                         <span class="chip bg-color">leetcode</span>
                     </a>
                     
-                    <a href="/tags/算法/" target="_blank">
-                        <span class="chip bg-color">算法</span>
-                    </a>
-                    
                     <a href="/tags/Java/" target="_blank">
                         <span class="chip bg-color">Java</span>
+                    </a>
+                    
+                    <a href="/tags/算法/" target="_blank">
+                        <span class="chip bg-color">算法</span>
                     </a>
                     
                 </div>
@@ -772,7 +763,7 @@ class Solution {
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">45.1k</span>
+            <span class="white-color">63.3k</span>
             
 
             <br>

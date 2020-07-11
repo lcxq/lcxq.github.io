@@ -297,12 +297,12 @@
                                 <span class="chip bg-color">leetcode</span>
                             </a>
                         
-                            <a href="/tags/算法/" target="_blank">
-                                <span class="chip bg-color">算法</span>
-                            </a>
-                        
                             <a href="/tags/Java/" target="_blank">
                                 <span class="chip bg-color">Java</span>
+                            </a>
+                        
+                            <a href="/tags/算法/" target="_blank">
+                                <span class="chip bg-color">算法</span>
                             </a>
                         
                     </div>
@@ -339,14 +339,14 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        250
+                        457
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        1 分
+                        2 分
                     </div>
                     
                 
@@ -360,7 +360,7 @@
                 <h2 id="复原IP地址"><a href="#复原IP地址" class="headerlink" title="复原IP地址"></a>复原IP地址</h2><p>给定一个只包含数字的字符串，复原它并返回所有可能的 IP 地址格式。</p>
 <p><strong>示例:</strong></p>
 <pre><code>输入: &quot;25525511135&quot;
-输出: [&quot;255.255.11.135&quot;, &quot;255.255.111.35&quot;]</code></pre><h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><p>自己AC了但感觉写的有点丑陋，主要思想就是写三个循环遍历三个’.’分割位，分割得到的序列满足IP地址要求就输出。几个特殊情况都是看WA的case再补的……</p>
+输出: [&quot;255.255.11.135&quot;, &quot;255.255.111.35&quot;]</code></pre><h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><p>自己AC了但感觉写的有点丑陋，主要思想就是写三个循环遍历三个’.’分割位，分割得到的序列满足IP地址要求就输出。几个特殊情况都是看WA的case再补的……</p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
     <span class="token keyword">public</span> List<span class="token operator">&lt;</span>String<span class="token operator">></span> <span class="token function">restoreIpAddresses</span><span class="token punctuation">(</span>String s<span class="token punctuation">)</span> <span class="token punctuation">{</span>
         List<span class="token operator">&lt;</span>String<span class="token operator">></span> res <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList</span><span class="token operator">&lt;</span><span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -372,9 +372,7 @@
                     tmp<span class="token punctuation">.</span><span class="token function">insert</span><span class="token punctuation">(</span>i<span class="token punctuation">,</span> <span class="token string">'.'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
                     tmp<span class="token punctuation">.</span><span class="token function">insert</span><span class="token punctuation">(</span>j<span class="token punctuation">,</span> <span class="token string">'.'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
                     tmp<span class="token punctuation">.</span><span class="token function">insert</span><span class="token punctuation">(</span>k<span class="token punctuation">,</span> <span class="token string">'.'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>tmp<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
                     <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">valid</span><span class="token punctuation">(</span>tmp<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>tmp<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
                         res<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">String</span><span class="token punctuation">(</span>tmp<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
                     <span class="token punctuation">}</span>
                     tmp<span class="token punctuation">.</span><span class="token function">delete</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> tmp<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -392,6 +390,38 @@
             <span class="token punctuation">}</span>
         <span class="token punctuation">}</span>
         <span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre>
+<h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><p>看了题目就知道用dfs可解，但对于递归的进入和返回情况有点混乱。包括有效ip片段的判断函数也可以写的更清楚。这里放上题解。</p>
+<pre class=" language-java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> List<span class="token operator">&lt;</span>String<span class="token operator">></span> <span class="token function">restoreIpAddresses</span><span class="token punctuation">(</span>String s<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        List<span class="token operator">&lt;</span>String<span class="token operator">></span> res <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList</span><span class="token operator">&lt;</span><span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>s<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">></span> <span class="token number">12</span> <span class="token operator">||</span> s<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&lt;</span> <span class="token number">4</span><span class="token punctuation">)</span> <span class="token keyword">return</span> res<span class="token punctuation">;</span>
+        <span class="token function">dfs</span><span class="token punctuation">(</span>s<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList</span><span class="token operator">&lt;</span><span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> res<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> res<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">private</span> <span class="token keyword">void</span> <span class="token function">dfs</span><span class="token punctuation">(</span>String s<span class="token punctuation">,</span> <span class="token keyword">int</span> start<span class="token punctuation">,</span> <span class="token keyword">int</span> residue<span class="token punctuation">,</span> List<span class="token operator">&lt;</span>String<span class="token operator">></span> tempList<span class="token punctuation">,</span> List<span class="token operator">&lt;</span>String<span class="token operator">></span> res<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>start <span class="token operator">==</span> s<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>residue <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                res<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>String<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">"."</span><span class="token punctuation">,</span> tempList<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+            <span class="token keyword">return</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> start<span class="token punctuation">;</span> i <span class="token operator">&lt;</span> start <span class="token operator">+</span> <span class="token number">3</span> <span class="token operator">&amp;&amp;</span> i <span class="token operator">&lt;</span> s<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> 
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>residue <span class="token operator">*</span> <span class="token number">3</span> <span class="token operator">&lt;</span> s<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-</span> i<span class="token punctuation">)</span> <span class="token keyword">continue</span><span class="token punctuation">;</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">isValid</span><span class="token punctuation">(</span>s<span class="token punctuation">,</span> start<span class="token punctuation">,</span> i<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                String currentIPSegement <span class="token operator">=</span> s<span class="token punctuation">.</span><span class="token function">substring</span><span class="token punctuation">(</span>start<span class="token punctuation">,</span> i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                tempList<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>currentIPSegement<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token function">dfs</span><span class="token punctuation">(</span>s<span class="token punctuation">,</span> i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">,</span> residue <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">,</span> tempList<span class="token punctuation">,</span> res<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                tempList<span class="token punctuation">.</span><span class="token function">remove</span><span class="token punctuation">(</span>tempList<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">private</span> <span class="token keyword">boolean</span> <span class="token function">isValid</span><span class="token punctuation">(</span>String s<span class="token punctuation">,</span> <span class="token keyword">int</span> left<span class="token punctuation">,</span> <span class="token keyword">int</span> right<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">int</span> len <span class="token operator">=</span> right <span class="token operator">-</span> left <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>s<span class="token punctuation">.</span><span class="token function">charAt</span><span class="token punctuation">(</span>left<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">'0'</span> <span class="token operator">&amp;&amp;</span> len <span class="token operator">></span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> num <span class="token operator">=</span> Integer<span class="token punctuation">.</span><span class="token function">valueOf</span><span class="token punctuation">(</span>s<span class="token punctuation">.</span><span class="token function">substring</span><span class="token punctuation">(</span>left<span class="token punctuation">,</span> right <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> num <span class="token operator">>=</span> <span class="token number">0</span> <span class="token operator">&amp;&amp;</span> num <span class="token operator">&lt;=</span> <span class="token number">255</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre>
 
@@ -522,12 +552,12 @@ class
                         <span class="chip bg-color">leetcode</span>
                     </a>
                     
-                    <a href="/tags/算法/" target="_blank">
-                        <span class="chip bg-color">算法</span>
-                    </a>
-                    
                     <a href="/tags/Java/" target="_blank">
                         <span class="chip bg-color">Java</span>
+                    </a>
+                    
+                    <a href="/tags/算法/" target="_blank">
+                        <span class="chip bg-color">算法</span>
                     </a>
                     
                 </div>
@@ -583,12 +613,12 @@ class
                         <span class="chip bg-color">leetcode</span>
                     </a>
                     
-                    <a href="/tags/算法/" target="_blank">
-                        <span class="chip bg-color">算法</span>
-                    </a>
-                    
                     <a href="/tags/Java/" target="_blank">
                         <span class="chip bg-color">Java</span>
+                    </a>
+                    
+                    <a href="/tags/算法/" target="_blank">
+                        <span class="chip bg-color">算法</span>
                     </a>
                     
                 </div>
@@ -751,7 +781,7 @@ class
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">45.1k</span>
+            <span class="white-color">63.3k</span>
             
 
             <br>
