@@ -293,12 +293,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/leetcode/" target="_blank">
-                                <span class="chip bg-color">leetcode</span>
-                            </a>
-                        
                             <a href="/tags/Java/" target="_blank">
                                 <span class="chip bg-color">Java</span>
+                            </a>
+                        
+                            <a href="/tags/leetcode/" target="_blank">
+                                <span class="chip bg-color">leetcode</span>
                             </a>
                         
                             <a href="/tags/算法/" target="_blank">
@@ -339,7 +339,7 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        234
+                        340
                     </div>
                     
 
@@ -361,7 +361,7 @@
 <p>你应当保留两个分区中每个节点的初始相对位置。</p>
 <p><strong>示例:</strong></p>
 <pre><code>输入: head = 1-&gt;4-&gt;3-&gt;2-&gt;5-&gt;2, x = 3
-输出: 1-&gt;2-&gt;2-&gt;4-&gt;3-&gt;5</code></pre><h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><p>链表题相对前面两道hard真的太慈悲了，新建一个链表然后遍历链表将原链表中小于x的节点连到新链表中，再把新旧两个链表连起来就行。</p>
+输出: 1-&gt;2-&gt;2-&gt;4-&gt;3-&gt;5</code></pre><h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><p>链表题相对前面两道hard真的太慈悲了，新建一个链表然后遍历链表将原链表中小于x的节点连到新链表中，再把新旧两个链表连起来就行。</p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
     <span class="token keyword">public</span> ListNode <span class="token function">partition</span><span class="token punctuation">(</span>ListNode head<span class="token punctuation">,</span> <span class="token keyword">int</span> x<span class="token punctuation">)</span> <span class="token punctuation">{</span>
         <span class="token keyword">if</span> <span class="token punctuation">(</span>head <span class="token operator">==</span> null<span class="token punctuation">)</span> <span class="token keyword">return</span> null<span class="token punctuation">;</span>
@@ -385,6 +385,26 @@
         <span class="token punctuation">}</span>
         r<span class="token punctuation">.</span>next <span class="token operator">=</span> H<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
         <span class="token keyword">return</span> newList<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre>
+<h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><p>之间新建两个链表一大一小，再连起来，由于链表的特性，空间复杂度依旧是常数级别的，而且代码可读性更强</p>
+<pre class=" language-java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> ListNode <span class="token function">partition</span><span class="token punctuation">(</span>ListNode head<span class="token punctuation">,</span> <span class="token keyword">int</span> x<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        ListNode small <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span> p_small <span class="token operator">=</span> small<span class="token punctuation">;</span>
+        ListNode big <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span> p_big <span class="token operator">=</span> big<span class="token punctuation">;</span>
+        <span class="token keyword">while</span> <span class="token punctuation">(</span>head <span class="token operator">!=</span> null<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>head<span class="token punctuation">.</span>val <span class="token operator">&lt;</span> x<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                p_small<span class="token punctuation">.</span>next <span class="token operator">=</span> head<span class="token punctuation">;</span>
+                p_small <span class="token operator">=</span> p_small<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+            <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+                p_big<span class="token punctuation">.</span>next <span class="token operator">=</span> head<span class="token punctuation">;</span>
+                p_big <span class="token operator">=</span> p_big<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+            head <span class="token operator">=</span> head<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        p_big<span class="token punctuation">.</span>next <span class="token operator">=</span> null<span class="token punctuation">;</span>
+        p_small<span class="token punctuation">.</span>next <span class="token operator">=</span> big<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+        <span class="token keyword">return</span> small<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre>
 
@@ -503,12 +523,12 @@ great   /      gr    eat / \    /  g
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/leetcode/" target="_blank">
-                        <span class="chip bg-color">leetcode</span>
-                    </a>
-                    
                     <a href="/tags/Java/" target="_blank">
                         <span class="chip bg-color">Java</span>
+                    </a>
+                    
+                    <a href="/tags/leetcode/" target="_blank">
+                        <span class="chip bg-color">leetcode</span>
                     </a>
                     
                     <a href="/tags/算法/" target="_blank">
@@ -564,12 +584,12 @@ great   /      gr    eat / \    /  g
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/leetcode/" target="_blank">
-                        <span class="chip bg-color">leetcode</span>
-                    </a>
-                    
                     <a href="/tags/Java/" target="_blank">
                         <span class="chip bg-color">Java</span>
+                    </a>
+                    
+                    <a href="/tags/leetcode/" target="_blank">
+                        <span class="chip bg-color">leetcode</span>
                     </a>
                     
                     <a href="/tags/算法/" target="_blank">
@@ -736,7 +756,7 @@ great   /      gr    eat / \    /  g
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">63.3k</span>
+            <span class="white-color">72.2k</span>
             
 
             <br>
