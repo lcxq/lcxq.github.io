@@ -200,38 +200,47 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 
                 
                 
-                <a href="/categories/Java/" title="Java: 2">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F9EBEA;">Java
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/Spring/" title="Spring: 7">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F5EEF8;">Spring
-                        <span class="tag-length">7</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/categories/博客/" title="博客: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #D5F5E3;">博客
+                            style="background-color: #F9EBEA;">博客
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/leetcode/" title="leetcode: 175">
+                <a href="/categories/Java/" title="Java: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F5EEF8;">Java
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/Spring/" title="Spring: 11">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #D5F5E3;">Spring
+                        <span class="tag-length">11</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/SpringBoot/" title="SpringBoot: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #E8F8F5;">SpringBoot
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/leetcode/" title="leetcode: 193">
                     <span class="chip center-align waves-effect waves-light
                              chip-active "
-                            style="background-color: #E8F8F5;">leetcode
-                        <span class="tag-length">175</span>
+                            style="background-color: #FEF9E7;">leetcode
+                        <span class="tag-length">193</span>
                     </span>
                 </a>
                 
@@ -248,27 +257,84 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2020/05/11/leetcode-no-143-chong-pai-lian-biao/">
+                    <a href="/2020/07/07/leetcode-no-165-bi-jiao-ban-ben-hao/">
                         <div class="card-image tag-image">
                             
                             
-                            <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="leetcode No.143 重排链表">
+                            <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="leetcode No.165 比较版本号">
                             
-                            <span class="card-title">leetcode No.143 重排链表</span>
+                            <span class="card-title">leetcode No.165 比较版本号</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                重排链表给定一个单链表 L：L0→L1→…→Ln-1→Ln ，将其重新排列后变为： L0→Ln→L1→Ln-1→L2→Ln-2→…
-你不能只是单纯的改变节点内部的值，而是需要实际的进行节点交换。
+                                比较版本号比较两个版本号 version1 和 version2。如果 version1 &gt; version2 返回 1，如果 version1 &lt; version2 返回 -1， 除此之外返回 0。
+你可以假设版本字符串非空，
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-07-07
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/leetcode/" class="post-category" target="_blank">
+                                    leetcode
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
+                        </a>
+                        
+                        <a href="/tags/leetcode/" target="_blank">
+                            <span class="chip bg-color">leetcode</span>
+                        </a>
+                        
+                        <a href="/tags/算法/" target="_blank">
+                            <span class="chip bg-color">算法</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/07/07/leetcode-no-164-zui-da-jian-ju/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="leetcode No.164 最大间距">
+                            
+                            <span class="card-title">leetcode No.164 最大间距</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                最大间距给定一个无序的数组，找出数组在排序之后，相邻元素之间最大的差值。
+如果数组元素个数小于 2，则返回 0。
 示例 1:
-给定链表 1-&gt;2-&gt
+输入: [3,6,9,1]
+输出: 3
+解释: 排序后的数组是 [1,3,6,9], 其中相邻元素 (3,6) 和
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-11
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-07-07
                             </span>
                             <span class="publish-author">
                                 
@@ -305,27 +371,27 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2020/05/11/leetcode-no-142-huan-xing-lian-biao-ii/">
+                    <a href="/2020/07/07/leetcode-no-162-xun-zhao-feng-zhi/">
                         <div class="card-image tag-image">
                             
                             
-                            <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="leetcode No.142 环形链表Ⅱ">
+                            <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="leetcode No.162 寻找峰值">
                             
-                            <span class="card-title">leetcode No.142 环形链表Ⅱ</span>
+                            <span class="card-title">leetcode No.162 寻找峰值</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                环形链表题目描述和上一题一样，只是这次需要找到入环的起始节点。
-方法依旧使用快慢指针，我们只要在快慢指针相遇后让慢指针和另一个从头开始的指针同步走，则慢指针和这个从头开始的指针一定会在入环处相遇。有关证明可以参考：
-
-public clas
+                                寻找峰值峰值元素是指其值大于左右相邻值的元素。
+给定一个输入数组 nums，其中 nums[i] ≠ nums[i+1]，找到峰值元素并返回其索引。
+数组可能包含多个峰值，在这种情况下，返回任何一个峰值所在位置即可。
+你可以假设 nums[
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-11
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-07-07
                             </span>
                             <span class="publish-author">
                                 
@@ -362,27 +428,316 @@ public clas
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2020/05/11/leetcode-no-141-huan-xing-lian-biao/">
+                    <a href="/2020/07/02/leetcode-no-160-xiang-jiao-lian-biao/">
                         <div class="card-image tag-image">
                             
                             
-                            <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="leetcode No.141 环形链表">
+                            <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="leetcode No.160 相交链表">
                             
-                            <span class="card-title">leetcode No.141 环形链表</span>
+                            <span class="card-title">leetcode No.160 相交链表</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                环形链表给定一个链表，判断链表中是否有环。
-为了表示给定链表中的环，我们使用整数 pos 来表示链表尾连接到链表中的位置（索引从 0 开始）。 如果 pos 是 -1，则在该链表中没有环。
+                                相交链表题目描述太多普遍懒得贴了，地址(https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
+方法我们分别用两个指针a和b从A和B两个头结点开始遍历，若a节点
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-07-02
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/leetcode/" class="post-category" target="_blank">
+                                    leetcode
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
+                        </a>
+                        
+                        <a href="/tags/leetcode/" target="_blank">
+                            <span class="chip bg-color">leetcode</span>
+                        </a>
+                        
+                        <a href="/tags/算法/" target="_blank">
+                            <span class="chip bg-color">算法</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/07/01/leetcode-no-155-zui-xiao-zhan/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="leetcode No.155 最小栈">
+                            
+                            <span class="card-title">leetcode No.155 最小栈</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                最小栈设计一个支持 push ，pop ，top 操作，并能在常数时间内检索到最小元素的栈。
+
+push(x) —— 将元素 x 推入栈中。
+pop() —— 删除栈顶的元素。
+top() —— 获取栈顶元素。
+getMin() —— 检索
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-07-01
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/leetcode/" class="post-category" target="_blank">
+                                    leetcode
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
+                        </a>
+                        
+                        <a href="/tags/leetcode/" target="_blank">
+                            <span class="chip bg-color">leetcode</span>
+                        </a>
+                        
+                        <a href="/tags/算法/" target="_blank">
+                            <span class="chip bg-color">算法</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/06/30/leetcode-no-154-xun-zhao-xuan-zhuan-pai-xu-shu-zu-zhong-de-zui-xiao-zhi/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="leetcode No.154 寻找旋转排序数组中的最小值">
+                            
+                            <span class="card-title">leetcode No.154 寻找旋转排序数组中的最小值</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                寻找旋转排序数组中的最小值假设按照升序排序的数组在预先未知的某个点上进行了旋转。
+( 例如，数组 [0,1,2,4,5,6,7] 可能变为 [4,5,6,7,0,1,2] )。
+请找出其中最小的元素。
+注意数组中可能存在重复的元素。
+示例 
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-06-30
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/leetcode/" class="post-category" target="_blank">
+                                    leetcode
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
+                        </a>
+                        
+                        <a href="/tags/leetcode/" target="_blank">
+                            <span class="chip bg-color">leetcode</span>
+                        </a>
+                        
+                        <a href="/tags/算法/" target="_blank">
+                            <span class="chip bg-color">算法</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/06/30/leetcode-no-153-xun-zhao-xuan-zhuan-pai-xu-shu-zu-zhong-de-zui-xiao-zhi/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="leetcode No.153 寻找旋转排序数组中的最小值">
+                            
+                            <span class="card-title">leetcode No.153 寻找旋转排序数组中的最小值</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                寻找旋转排序数组中的最小值假设按照升序排序的数组在预先未知的某个点上进行了旋转。
+( 例如，数组 [0,1,2,4,5,6,7] 可能变为 [4,5,6,7,0,1,2] )。
+请找出其中最小的元素。
+你可以假设数组中不存在重复元素。
+示例
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-06-30
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/leetcode/" class="post-category" target="_blank">
+                                    leetcode
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
+                        </a>
+                        
+                        <a href="/tags/leetcode/" target="_blank">
+                            <span class="chip bg-color">leetcode</span>
+                        </a>
+                        
+                        <a href="/tags/算法/" target="_blank">
+                            <span class="chip bg-color">算法</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/06/30/leetcode-no-152-cheng-ji-zui-da-zi-shu-zu/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="leetcode No.152 乘积最大子数组">
+                            
+                            <span class="card-title">leetcode No.152 乘积最大子数组</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                乘积最大子数组给你一个整数数组 nums ，请你找出数组中乘积最大的连续子数组（该子数组中至少包含一个数字），并返回该子数组所对应的乘积。
+示例 1:
+输入: [2,3,-2,4]
+输出: 6
+解释: 子数组 [2,3] 有最大乘积 6。示
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-06-30
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/leetcode/" class="post-category" target="_blank">
+                                    leetcode
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
+                        </a>
+                        
+                        <a href="/tags/leetcode/" target="_blank">
+                            <span class="chip bg-color">leetcode</span>
+                        </a>
+                        
+                        <a href="/tags/算法/" target="_blank">
+                            <span class="chip bg-color">算法</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/06/29/leetcode-no-151-fan-zhuan-zi-fu-chuan-li-de-dan-ci/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="leetcode No.151 翻转字符串里的单词">
+                            
+                            <span class="card-title">leetcode No.151 翻转字符串里的单词</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                翻转字符串里的单词给定一个字符串，逐个翻转字符串中的每个单词。
 示例 1：
-    输入：head = [3,2,
+输入: &quot;the sky is blue&quot;
+输出: &quot;blue is sky the&quot;示例 2：
+输入: &quot;  h
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-11
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-06-29
                             </span>
                             <span class="publish-author">
                                 
@@ -419,494 +774,156 @@ public clas
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2020/05/11/leetcode-no-140-dan-ci-chai-fen-ii/">
+                    <a href="/2020/05/23/leetcode-no-114-er-cha-shu-zhan-kai-wei-lian-biao/">
                         <div class="card-image tag-image">
                             
                             
-                            <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="leetcode No.140 单词拆分Ⅱ">
+                            <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="leetcode No.114 二叉树展开为链表">
                             
-                            <span class="card-title">leetcode No.140 单词拆分Ⅱ</span>
+                            <span class="card-title">leetcode No.114 二叉树展开为链表</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                单词拆分Ⅱ给定一个非空字符串 s 和一个包含非空单词列表的字典 wordDict，在字符串中增加空格来构建一个句子，使得句子中所有的单词都在词典中。返回所有这些可能的句子。
+                                二叉树展开为链表给定一个二叉树，原地将它展开为链表。
+例如，给定二叉树
+    1
+   / \
+  2   5
+ / \   \
+3   4   6将其展开为：
+1
+ \
+  2
+   \
+    3
+     \
+      4
+   
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-23
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/leetcode/" class="post-category" target="_blank">
+                                    leetcode
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
+                        </a>
+                        
+                        <a href="/tags/leetcode/" target="_blank">
+                            <span class="chip bg-color">leetcode</span>
+                        </a>
+                        
+                        <a href="/tags/算法/" target="_blank">
+                            <span class="chip bg-color">算法</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/05/19/leetcode-no-137-zhi-chu-xian-yi-ci-de-shu-zi-ii/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="leetcode No.137 只出现一次的数字Ⅱ">
+                            
+                            <span class="card-title">leetcode No.137 只出现一次的数字Ⅱ</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                只出现一次的数字Ⅱ给定一个非空整数数组，除了某个元素只出现一次以外，其余每个元素均出现了三次。找出那个只出现了一次的元素。
+说明：
+你的算法应该具有线性时间复杂度。 你可以不使用额外空间来实现吗？
+示例 1:
+输入: [2,2,3,2]
+输
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-19
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/leetcode/" class="post-category" target="_blank">
+                                    leetcode
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
+                        </a>
+                        
+                        <a href="/tags/leetcode/" target="_blank">
+                            <span class="chip bg-color">leetcode</span>
+                        </a>
+                        
+                        <a href="/tags/算法/" target="_blank">
+                            <span class="chip bg-color">算法</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/05/15/leetcode-no-150-ni-bo-lan-biao-da-shi-qiu-zhi/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="leetcode No.150 逆波兰表达式求值">
+                            
+                            <span class="card-title">leetcode No.150 逆波兰表达式求值</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                逆波兰表达式求值根据逆波兰表示法，求表达式的值。
+有效的运算符包括 +, -, *, / 。每个运算对象可以是整数，也可以是另一个逆波兰表达式。
 说明：
 
-分隔时可以重复使用字典中的单词。
-你可以假设字典中没有重
+整数除法只保留整数部分。
+给定逆波兰表达式总是有效的。换句话说，表达式总会得出有效数
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-11
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/leetcode/" class="post-category" target="_blank">
-                                    leetcode
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                        <a href="/tags/leetcode/" target="_blank">
-                            <span class="chip bg-color">leetcode</span>
-                        </a>
-                        
-                        <a href="/tags/算法/" target="_blank">
-                            <span class="chip bg-color">算法</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2020/05/10/leetcode-no-139-dan-ci-chai-fen/">
-                        <div class="card-image tag-image">
-                            
-                            
-                            <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="leetcode No.139 单词拆分">
-                            
-                            <span class="card-title">leetcode No.139 单词拆分</span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                单词拆分给定一个非空字符串 s 和一个包含非空单词列表的字典 wordDict，判定 s 是否可以被空格拆分为一个或多个在字典中出现的单词。
-说明：
-
-拆分时可以重复使用字典中的单词。
-你可以假设字典中没有重复的单词。
-
-示例 1：
-输入:
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-10
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/leetcode/" class="post-category" target="_blank">
-                                    leetcode
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                        <a href="/tags/leetcode/" target="_blank">
-                            <span class="chip bg-color">leetcode</span>
-                        </a>
-                        
-                        <a href="/tags/算法/" target="_blank">
-                            <span class="chip bg-color">算法</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2020/05/10/leetcode-no-138-fu-zhi-dai-sui-ji-zhi-zhen-de-lian-biao/">
-                        <div class="card-image tag-image">
-                            
-                            
-                            <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="leetcode No.138 复制带随机指针的链表">
-                            
-                            <span class="card-title">leetcode No.138 复制带随机指针的链表</span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                给定一个链表，每个节点包含一个额外增加的随机指针，该指针可以指向链表中的任何节点或空节点。
-要求返回这个链表的 深拷贝。 
-我们用一个由 n 个节点组成的链表来表示输入/输出中的链表。每个节点用一个 [val, random_index] 
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-10
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/leetcode/" class="post-category" target="_blank">
-                                    leetcode
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                        <a href="/tags/leetcode/" target="_blank">
-                            <span class="chip bg-color">leetcode</span>
-                        </a>
-                        
-                        <a href="/tags/算法/" target="_blank">
-                            <span class="chip bg-color">算法</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2020/05/10/leetcode-no-136-zhi-chu-xian-yi-ci-de-shu-zi/">
-                        <div class="card-image tag-image">
-                            
-                            
-                            <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="leetcode No.136 只出现一次的数字">
-                            
-                            <span class="card-title">leetcode No.136 只出现一次的数字</span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                只出现一次的数字很经典的位运算题，直接放最优解了。
-class Solution {
-    public int singleNumber(int[] nums) {
-        int ans = 0;
-        for (i
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-10
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/leetcode/" class="post-category" target="_blank">
-                                    leetcode
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                        <a href="/tags/leetcode/" target="_blank">
-                            <span class="chip bg-color">leetcode</span>
-                        </a>
-                        
-                        <a href="/tags/算法/" target="_blank">
-                            <span class="chip bg-color">算法</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2020/05/09/leetcode-no-135-fen-fa-tang-guo/">
-                        <div class="card-image tag-image">
-                            
-                            
-                            <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="leetcode No.135 分发糖果">
-                            
-                            <span class="card-title">leetcode No.135 分发糖果</span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                老师想给孩子们分发糖果，有 N 个孩子站成了一条直线，老师会根据每个孩子的表现，预先给他们评分。
-你需要按照以下要求，帮助老师给这些孩子分发糖果：
-
-每个孩子至少分配到 1 个糖果。
-相邻的孩子中，评分高的孩子必须获得更多的糖果。那么这样下
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-09
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/leetcode/" class="post-category" target="_blank">
-                                    leetcode
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                        <a href="/tags/leetcode/" target="_blank">
-                            <span class="chip bg-color">leetcode</span>
-                        </a>
-                        
-                        <a href="/tags/算法/" target="_blank">
-                            <span class="chip bg-color">算法</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2020/05/09/leetcode-no-134-jia-you-zhan/">
-                        <div class="card-image tag-image">
-                            
-                            
-                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="leetcode No.134 加油站">
-                            
-                            <span class="card-title">leetcode No.134 加油站</span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                加油站在一条环路上有 N 个加油站，其中第 i 个加油站有汽油 gas[i] 升。
-你有一辆油箱容量无限的的汽车，从第 i 个加油站开往第 i+1 个加油站需要消耗汽油 cost[i] 升。你从其中的一个加油站出发，开始时油箱为空。
-如果你
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-09
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/leetcode/" class="post-category" target="_blank">
-                                    leetcode
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                        <a href="/tags/leetcode/" target="_blank">
-                            <span class="chip bg-color">leetcode</span>
-                        </a>
-                        
-                        <a href="/tags/算法/" target="_blank">
-                            <span class="chip bg-color">算法</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2020/05/09/leetcode-no-133-ke-long-tu/">
-                        <div class="card-image tag-image">
-                            
-                            
-                            <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="leetcode No.133 克隆图">
-                            
-                            <span class="card-title">leetcode No.133 克隆图</span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                克隆图给你无向 连通 图中一个节点的引用，请你返回该图的 深拷贝（克隆）。
-图中的每个节点都包含它的值 val（int） 和其邻居的列表（list[Node]）。
-class Node {
-    public int val;
-    p
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-09
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/leetcode/" class="post-category" target="_blank">
-                                    leetcode
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                        <a href="/tags/leetcode/" target="_blank">
-                            <span class="chip bg-color">leetcode</span>
-                        </a>
-                        
-                        <a href="/tags/算法/" target="_blank">
-                            <span class="chip bg-color">算法</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2020/04/21/leetcode-no-132-fen-ge-hui-wen-chuan-ii/">
-                        <div class="card-image tag-image">
-                            
-                            
-                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="leetcode No.132 分割回文串Ⅱ">
-                            
-                            <span class="card-title">leetcode No.132 分割回文串Ⅱ</span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                分割回文串Ⅱ给定一个字符串 s，将 s 分割成一些子串，使每个子串都是回文串。
-返回符合要求的最少分割次数。
-示例:
-输入: “aab”输出: 1解释: 进行一次分割就可将 s 分割成 [“aa”,”b”] 这样两个回文子串。
-方法一分治递
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-21
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/leetcode/" class="post-category" target="_blank">
-                                    leetcode
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                        <a href="/tags/leetcode/" target="_blank">
-                            <span class="chip bg-color">leetcode</span>
-                        </a>
-                        
-                        <a href="/tags/算法/" target="_blank">
-                            <span class="chip bg-color">算法</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2020/04/21/leetcode-no-131-fen-ge-hui-wen-chuan/">
-                        <div class="card-image tag-image">
-                            
-                            
-                            <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="leetcode No.131 分割回文串">
-                            
-                            <span class="card-title">leetcode No.131 分割回文串</span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                分割回文串给定一个字符串 s，将 s 分割成一些子串，使每个子串都是回文串。
-返回 s 所有可能的分割方案。
-示例:
-输入: &quot;aab&quot;
-输出:
-[
-  [&quot;aa&quot;,&quot;b&quot;],
- 
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-21
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-15
                             </span>
                             <span class="publish-author">
                                 
@@ -957,7 +974,7 @@ class Node {
             
         </div>
         <div class="page-info col m4 l4 hide-on-small-only">
-            <div class="center-align b-text-gray">4 / 15</div>
+            <div class="center-align b-text-gray">4 / 17</div>
         </div>
         <div class="col s6 m4 l4">
             
@@ -978,7 +995,7 @@ class Node {
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">72.2k</span>
+            <span class="white-color">83.6k</span>
             
 
             <br>
