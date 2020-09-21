@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lcxq.github.io/"/>
-  <updated>2020-08-16T16:31:19.707Z</updated>
+  <updated>2020-09-18T08:14:00.100Z</updated>
   <id>http://lcxq.github.io/</id>
   
   <author>
@@ -17,11 +17,350 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Java基础 反射</title>
+    <link href="http://lcxq.github.io/2020/09/17/java-ji-chu-fan-she/"/>
+    <id>http://lcxq.github.io/2020/09/17/java-ji-chu-fan-she/</id>
+    <published>2020-09-17T11:00:29.000Z</published>
+    <updated>2020-09-18T08:14:00.100Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Class&quot;&gt;&lt;a href=&quot;#Class&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Java基础" scheme="http://lcxq.github.io/categories/Java%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="反射" scheme="http://lcxq.github.io/tags/%E5%8F%8D%E5%B0%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java基础 日志</title>
+    <link href="http://lcxq.github.io/2020/09/17/java-ji-chu-ri-zhi/"/>
+    <id>http://lcxq.github.io/2020/09/17/java-ji-chu-ri-zhi/</id>
+    <published>2020-09-17T05:48:06.000Z</published>
+    <updated>2020-09-17T11:01:46.725Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;JDK-Logging&quot;&gt;&lt;a href=&quot;#JDK-Logging&quot; class=&quot;headerlink&quot; title=&quot;JDK Logging&quot;&gt;&lt;/a&gt;JDK Logging&lt;/h2&gt;&lt;p&gt;Java标准库内置了日志包
+        
+      
+    
+    </summary>
+    
+      <category term="Java基础" scheme="http://lcxq.github.io/categories/Java%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="日志" scheme="http://lcxq.github.io/tags/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java基础 多线程Ⅷ 线程池</title>
+    <link href="http://lcxq.github.io/2020/08/27/java-ji-chu-duo-xian-cheng-viii-xian-cheng-chi/"/>
+    <id>http://lcxq.github.io/2020/08/27/java-ji-chu-duo-xian-cheng-viii-xian-cheng-chi/</id>
+    <published>2020-08-27T03:07:30.000Z</published>
+    <updated>2020-09-17T11:02:02.287Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;线程池&quot;&gt;&lt;a href=&quot;#线程池&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="多线程" scheme="http://lcxq.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="多线程" scheme="http://lcxq.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java基础 多线程Ⅶ Concurrent包</title>
+    <link href="http://lcxq.github.io/2020/08/27/java-ji-chu-duo-xian-cheng-vii-concurrent-bao/"/>
+    <id>http://lcxq.github.io/2020/08/27/java-ji-chu-duo-xian-cheng-vii-concurrent-bao/</id>
+    <published>2020-08-27T02:10:55.000Z</published>
+    <updated>2020-08-27T02:59:19.195Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Concurrent集合&quot;&gt;&lt;a href=&quot;#Concurrent集合&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="多线程" scheme="http://lcxq.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="多线程" scheme="http://lcxq.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java基础 多线程Ⅵ 读写锁</title>
+    <link href="http://lcxq.github.io/2020/08/26/java-ji-chu-duo-xian-cheng-vi-du-xie-suo/"/>
+    <id>http://lcxq.github.io/2020/08/26/java-ji-chu-duo-xian-cheng-vi-du-xie-suo/</id>
+    <published>2020-08-26T09:42:22.000Z</published>
+    <updated>2020-08-27T02:10:15.458Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;ReadWriteLock&quot;&gt;&lt;a href=&quot;#ReadWriteLock&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="多线程" scheme="http://lcxq.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="多线程" scheme="http://lcxq.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java基础 多线程Ⅴ ReentrantLock</title>
+    <link href="http://lcxq.github.io/2020/08/26/java-ji-chu-duo-xian-cheng-v-reentrantlock/"/>
+    <id>http://lcxq.github.io/2020/08/26/java-ji-chu-duo-xian-cheng-v-reentrantlock/</id>
+    <published>2020-08-26T09:20:24.000Z</published>
+    <updated>2020-08-26T09:43:17.754Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;ReentrantLock&quot;&gt;&lt;a href=&quot;#ReentrantLock&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="多线程" scheme="http://lcxq.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="多线程" scheme="http://lcxq.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java基础 多线程Ⅳ wait()&amp;notify()</title>
+    <link href="http://lcxq.github.io/2020/08/26/java-ji-chu-duo-xian-cheng-iv-wait-notify/"/>
+    <id>http://lcxq.github.io/2020/08/26/java-ji-chu-duo-xian-cheng-iv-wait-notify/</id>
+    <published>2020-08-26T08:15:24.000Z</published>
+    <updated>2020-08-26T09:19:47.607Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;场景设定&quot;&gt;&lt;a href=&quot;#场景设定&quot; class=&quot;headerlink&quot; title=&quot;场景设定&quot;&gt;&lt;/a&gt;场景设定&lt;/h2&gt;&lt;p&gt;考虑一个场景，多个线程同时往队列中添加任务，我们可以用synchronized对类加锁&lt;/p&gt;
+&lt;pre class=&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="多线程" scheme="http://lcxq.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="多线程" scheme="http://lcxq.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java基础 多线程Ⅲ 线程同步</title>
+    <link href="http://lcxq.github.io/2020/08/26/java-ji-chu-duo-xian-cheng-iii-xian-cheng-tong-bu/"/>
+    <id>http://lcxq.github.io/2020/08/26/java-ji-chu-duo-xian-cheng-iii-xian-cheng-tong-bu/</id>
+    <published>2020-08-26T04:08:29.000Z</published>
+    <updated>2020-08-26T09:19:37.884Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;线程同步&quot;&gt;&lt;a href=&quot;#线程同步&quot; class=&quot;headerlink&quot; title=&quot;线程同步&quot;&gt;&lt;/a&gt;线程同步&lt;/h2&gt;&lt;p&gt;假设我们要用两个线程执行 n = n + 1，n的值有可能会不正确。这是因为操作非原子性，导致两个线程可能先后读取 n
+        
+      
+    
+    </summary>
+    
+      <category term="多线程" scheme="http://lcxq.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="多线程" scheme="http://lcxq.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java基础 多线程Ⅱ 线程状态</title>
+    <link href="http://lcxq.github.io/2020/08/26/java-ji-chu-duo-xian-cheng-ii-xian-cheng-zhuang-tai/"/>
+    <id>http://lcxq.github.io/2020/08/26/java-ji-chu-duo-xian-cheng-ii-xian-cheng-zhuang-tai/</id>
+    <published>2020-08-26T02:47:30.000Z</published>
+    <updated>2020-08-26T09:20:44.294Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;线程状态&quot;&gt;&lt;a href=&quot;#线程状态&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="多线程" scheme="http://lcxq.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="多线程" scheme="http://lcxq.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>leetcode No.491 递增子序列</title>
+    <link href="http://lcxq.github.io/2020/08/25/leetcode-no-491-di-zeng-zi-xu-lie/"/>
+    <id>http://lcxq.github.io/2020/08/25/leetcode-no-491-di-zeng-zi-xu-lie/</id>
+    <published>2020-08-25T07:30:46.000Z</published>
+    <updated>2020-08-25T07:52:03.137Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;递增子序列&quot;&gt;&lt;a href=&quot;#递增子序列&quot; class=&quot;headerlink&quot; title=&quot;递增子序列&quot;&gt;&lt;/a&gt;递增子序列&lt;/h2&gt;&lt;p&gt;给定一个整型数组,
+        
+      
+    
+    </summary>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
+    
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
+    
+      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java基础 多线程Ⅰ 线程创建</title>
+    <link href="http://lcxq.github.io/2020/08/19/java-ji-chu-duo-xian-cheng-i-xian-cheng-chuang-jian/"/>
+    <id>http://lcxq.github.io/2020/08/19/java-ji-chu-duo-xian-cheng-i-xian-cheng-chuang-jian/</id>
+    <published>2020-08-19T09:07:37.000Z</published>
+    <updated>2020-08-26T10:04:16.565Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;线程创建&quot;&gt;&lt;a href=&quot;#线程创建&quot; class=&quot;headerlink&quot; title=&quot;线程创建&quot;&gt;&lt;/a&gt;线程创建&lt;/h2&gt;&lt;p&gt;Java多线程编程系列学习笔记参考&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="多线程" scheme="http://lcxq.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="多线程" scheme="http://lcxq.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HttpClient实现客户端请求发送</title>
+    <link href="http://lcxq.github.io/2020/08/19/httpclient-shi-xian-ke-hu-duan-qing-qiu-fa-song/"/>
+    <id>http://lcxq.github.io/2020/08/19/httpclient-shi-xian-ke-hu-duan-qing-qiu-fa-song/</id>
+    <published>2020-08-19T03:07:26.000Z</published>
+    <updated>2020-08-19T03:16:54.395Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;HttpClient实现客户端请求发送&quot;&gt;&lt;a href=&quot;#HttpClient实现客户端请求发送&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="爬虫" scheme="http://lcxq.github.io/categories/%E7%88%AC%E8%99%AB/"/>
+    
+    
+      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
+    
+      <category term="爬虫" scheme="http://lcxq.github.io/tags/%E7%88%AC%E8%99%AB/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SSM整合实现登录验证Demo</title>
     <link href="http://lcxq.github.io/2020/08/16/ssm-zheng-he-shi-xian-deng-lu-yan-zheng-demo/"/>
     <id>http://lcxq.github.io/2020/08/16/ssm-zheng-he-shi-xian-deng-lu-yan-zheng-demo/</id>
     <published>2020-08-16T14:02:53.000Z</published>
-    <updated>2020-08-16T16:31:19.707Z</updated>
+    <updated>2020-08-19T03:02:11.543Z</updated>
     
     <summary type="html">
     
@@ -237,370 +576,6 @@
         
         
           &lt;h2 id=&quot;最短回文串&quot;&gt;&lt;a href=&quot;#最短回文串&quot; class=&quot;headerlink&quot; title=&quot;最短回文串&quot;&gt;&lt;/a&gt;最短回文串&lt;/h2&gt;&lt;p&gt;给定一个字符串
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.213 打家劫舍Ⅱ</title>
-    <link href="http://lcxq.github.io/2020/08/07/leetcode-no-213-da-jia-jie-she-ii/"/>
-    <id>http://lcxq.github.io/2020/08/07/leetcode-no-213-da-jia-jie-she-ii/</id>
-    <published>2020-08-07T09:27:41.000Z</published>
-    <updated>2020-08-07T09:31:38.994Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;打家劫舍Ⅱ&quot;&gt;&lt;a href=&quot;#打家劫舍Ⅱ&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.212 单词搜索</title>
-    <link href="http://lcxq.github.io/2020/08/07/leetcode-no-212-dan-ci-sou-suo/"/>
-    <id>http://lcxq.github.io/2020/08/07/leetcode-no-212-dan-ci-sou-suo/</id>
-    <published>2020-08-07T07:52:55.000Z</published>
-    <updated>2020-08-07T07:57:26.232Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;单词搜索&quot;&gt;&lt;a href=&quot;#单词搜索&quot; class=&quot;headerlink&quot; title=&quot;单词搜索&quot;&gt;&lt;/a&gt;单词搜索&lt;/h2&gt;&lt;p&gt;给定一个二维网格 board 和一个字典中的单词列表
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.211 添加与搜索单词-数据结构的设计</title>
-    <link href="http://lcxq.github.io/2020/08/07/leetcode-no-211-tian-jia-yu-sou-suo-dan-ci-shu-ju-jie-gou-de-she-ji/"/>
-    <id>http://lcxq.github.io/2020/08/07/leetcode-no-211-tian-jia-yu-sou-suo-dan-ci-shu-ju-jie-gou-de-she-ji/</id>
-    <published>2020-08-06T17:01:00.000Z</published>
-    <updated>2020-08-06T18:00:47.347Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;添加与搜索单词-数据结构的设计&quot;&gt;&lt;a href=&quot;#添加与搜索单词-数据结构的设计&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.210 课程表Ⅱ</title>
-    <link href="http://lcxq.github.io/2020/08/06/leetcode-no-210-ke-cheng-biao-ii/"/>
-    <id>http://lcxq.github.io/2020/08/06/leetcode-no-210-ke-cheng-biao-ii/</id>
-    <published>2020-08-06T12:23:22.000Z</published>
-    <updated>2020-08-06T12:24:41.247Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;课程表Ⅱ&quot;&gt;&lt;a href=&quot;#课程表Ⅱ&quot; class=&quot;headerlink&quot; title=&quot;课程表Ⅱ&quot;&gt;&lt;/a&gt;课程表Ⅱ&lt;/h2&gt;&lt;p&gt;和No.207课程表几乎一样，差异只在现在需要返回课程序列（拓扑排序序列）&lt;/p&gt;
-&lt;pre class=&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.209 长度最小的子数组</title>
-    <link href="http://lcxq.github.io/2020/08/06/leetcode-no-209-chang-du-zui-xiao-de-zi-shu-zu/"/>
-    <id>http://lcxq.github.io/2020/08/06/leetcode-no-209-chang-du-zui-xiao-de-zi-shu-zu/</id>
-    <published>2020-08-06T11:15:02.000Z</published>
-    <updated>2020-08-06T11:18:44.585Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;长度最小的子数组&quot;&gt;&lt;a href=&quot;#长度最小的子数组&quot; class=&quot;headerlink&quot; title=&quot;长度最小的子数组&quot;&gt;&lt;/a&gt;长度最小的子数组&lt;/h2&gt;&lt;p&gt;给定一个含有 n 个正整数的数组和一个正整数 s ，找出该数组中满足其和 ≥ s
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.208 实现 Trie (前缀树)</title>
-    <link href="http://lcxq.github.io/2020/08/06/leetcode-no-208-shi-xian-trie-qian-zhui-shu/"/>
-    <id>http://lcxq.github.io/2020/08/06/leetcode-no-208-shi-xian-trie-qian-zhui-shu/</id>
-    <published>2020-08-06T10:21:36.000Z</published>
-    <updated>2020-08-06T10:25:00.186Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;实现-Trie-前缀树&quot;&gt;&lt;a href=&quot;#实现-Trie-前缀树&quot; class=&quot;headerlink&quot; title=&quot;实现 Trie (前缀树)&quot;&gt;&lt;/a&gt;实现 Trie (前缀树)&lt;/h2&gt;&lt;p&gt;实现一个 Trie (前缀树)，包含 insert,
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.207 课程表</title>
-    <link href="http://lcxq.github.io/2020/08/06/leetcode-no-207-ke-cheng-biao/"/>
-    <id>http://lcxq.github.io/2020/08/06/leetcode-no-207-ke-cheng-biao/</id>
-    <published>2020-08-06T06:55:09.000Z</published>
-    <updated>2020-08-06T08:28:23.001Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;课程表&quot;&gt;&lt;a href=&quot;#课程表&quot; class=&quot;headerlink&quot; title=&quot;课程表&quot;&gt;&lt;/a&gt;课程表&lt;/h2&gt;&lt;p&gt;你这个学期必须选修 numCourse 门课程，记为 0 到 numCourse-1
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.206 反转链表</title>
-    <link href="http://lcxq.github.io/2020/08/06/leetcode-no-206-fan-zhuan-lian-biao/"/>
-    <id>http://lcxq.github.io/2020/08/06/leetcode-no-206-fan-zhuan-lian-biao/</id>
-    <published>2020-08-05T17:55:24.000Z</published>
-    <updated>2020-08-05T17:57:51.488Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;反转链表&quot;&gt;&lt;a href=&quot;#反转链表&quot; class=&quot;headerlink&quot; title=&quot;反转链表&quot;&gt;&lt;/a&gt;反转链表&lt;/h2&gt;&lt;p&gt;反转一个单链表。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;示例:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入:
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.205 同构字符串</title>
-    <link href="http://lcxq.github.io/2020/08/06/leetcode-no-205-tong-gou-zi-fu-chuan/"/>
-    <id>http://lcxq.github.io/2020/08/06/leetcode-no-205-tong-gou-zi-fu-chuan/</id>
-    <published>2020-08-05T17:29:33.000Z</published>
-    <updated>2020-08-05T17:44:58.946Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;同构字符串&quot;&gt;&lt;a href=&quot;#同构字符串&quot; class=&quot;headerlink&quot; title=&quot;同构字符串&quot;&gt;&lt;/a&gt;同构字符串&lt;/h2&gt;&lt;p&gt;给定两个字符串 s 和 t，判断它们是否是同构的。&lt;/p&gt;
-&lt;p&gt;如果 s 中的字符可以被替换得到 t
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.204 计数质数</title>
-    <link href="http://lcxq.github.io/2020/08/06/leetcode-no-204-ji-shu-zhi-shu/"/>
-    <id>http://lcxq.github.io/2020/08/06/leetcode-no-204-ji-shu-zhi-shu/</id>
-    <published>2020-08-05T17:12:48.000Z</published>
-    <updated>2020-08-05T17:13:39.430Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;计数质数&quot;&gt;&lt;a href=&quot;#计数质数&quot; class=&quot;headerlink&quot; title=&quot;计数质数&quot;&gt;&lt;/a&gt;计数质数&lt;/h2&gt;&lt;p&gt;统计所有小于非负整数 n
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.203 移除链表元素</title>
-    <link href="http://lcxq.github.io/2020/08/06/leetcode-no-203-yi-chu-lian-biao-yuan-su/"/>
-    <id>http://lcxq.github.io/2020/08/06/leetcode-no-203-yi-chu-lian-biao-yuan-su/</id>
-    <published>2020-08-05T17:02:49.000Z</published>
-    <updated>2020-08-05T17:03:25.123Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;移除链表元素&quot;&gt;&lt;a href=&quot;#移除链表元素&quot; class=&quot;headerlink&quot; title=&quot;移除链表元素&quot;&gt;&lt;/a&gt;移除链表元素&lt;/h2&gt;&lt;p&gt;删除链表中等于给定值 val
-        
-      
-    
-    </summary>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/categories/leetcode/"/>
-    
-    
-      <category term="Java" scheme="http://lcxq.github.io/tags/Java/"/>
-    
-      <category term="leetcode" scheme="http://lcxq.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="http://lcxq.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>leetcode No.202 快乐数</title>
-    <link href="http://lcxq.github.io/2020/08/06/leetcode-no-202-kuai-le-shu/"/>
-    <id>http://lcxq.github.io/2020/08/06/leetcode-no-202-kuai-le-shu/</id>
-    <published>2020-08-05T16:50:45.000Z</published>
-    <updated>2020-08-05T16:59:34.411Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;快乐数&quot;&gt;&lt;a href=&quot;#快乐数&quot; class=&quot;headerlink&quot; title=&quot;快乐数&quot;&gt;&lt;/a&gt;快乐数&lt;/h2&gt;&lt;p&gt;编写一个算法来判断一个数 n
         
       
     
